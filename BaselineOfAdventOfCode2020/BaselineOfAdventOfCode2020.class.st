@@ -6,6 +6,7 @@ Class {
 
 { #category : #baselines }
 BaselineOfAdventOfCode2020 >> anotherCase: spec [
+	" Shouldn't have to specify :main but that's Iceberg today "
 	spec
 		baseline: 'AnotherCase' with: [ spec repository: 'github://dvmason/AnotherCase:main' ]
 
