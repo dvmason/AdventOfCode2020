@@ -11,6 +11,36 @@ String >> day02b [
 ]
 
 { #category : #'*AdventOfCode2020' }
+String >> day03SlopeXDelta: xDelta yDelta: yDelta [
+	| hill trees xPos yPos |
+	hill := self lines.
+	trees := 0.
+	xPos := 1.
+	yPos := 1.
+	[ yPos <= hill size ] whileTrue: [
+		((hill at: yPos) wrapAt: xPos) = $# ifTrue: [ trees := trees + 1 ].
+		xPos := xPos + xDelta.
+		yPos := yPos + yDelta.
+	].
+	^ trees
+]
+
+{ #category : #'*AdventOfCode2020' }
+String >> day03a [
+	^ self day03SlopeXDelta: 3 yDelta: 1
+]
+
+{ #category : #'*AdventOfCode2020' }
+String >> day03b [
+	| product |
+	product := 1.
+	{1@1. 3@1. 5@1. 7@1. 1@2} do: [: point |
+		product := product * (self day03SlopeXDelta: point x yDelta: point y)
+	].
+	^ product
+]
+
+{ #category : #'*AdventOfCode2020' }
 String >> isAOCValidPassword [
 	| strings |
 	strings := self splitOn: [: char | char = $- or: [ char = $  ] ].
@@ -26,4 +56,9 @@ String >> isAOCValidPassword2 [
 	char := strings third first.
 	^ (((password at: strings first asNumber)=char) asBit +
 			((password at: strings second asNumber)=char) asBit) = 1
+]
+
+{ #category : #'*AdventOfCode2020' }
+String >> wrapAt: anInteger [ 
+	^ self at: ((anInteger-1) % self size)+1
 ]
