@@ -14,22 +14,59 @@ AdventOfCode2020 class >> initialize [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #helpers }
 AdventOfCode2020 >> day05Convert: aString [
 	^ aString lines collect: [: line |
 			('2r',line trim translateWith: BoardingPassTable) asNumber
 		]
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'day code' }
 AdventOfCode2020 >> day05a: aString [
 	^ (self day05Convert: aString) max
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'day code' }
 AdventOfCode2020 >> day05b: aString [
 	| prev |
 	prev := -3.
 	(self day05Convert: aString) asSortedCollection do: [: each |
 		(each - 2) = prev ifTrue: [ ^ each - 1 ] ifFalse: [ prev := each ] ]
+]
+
+{ #category : #helpers }
+AdventOfCode2020 >> day06Counting: aString init: iBlock counter: cBlock [
+	| count currentGroupAnswers groupSize |
+	count := 0.
+	groupSize := 0.
+	currentGroupAnswers := iBlock value.
+	aString lines do: [: line |
+		line ifEmpty: [
+			count := count + (cBlock value: currentGroupAnswers value: groupSize).
+			currentGroupAnswers := iBlock value.
+			groupSize := 0.
+		] ifNotEmpty: [
+			groupSize := groupSize + 1.
+			line do: [: char | currentGroupAnswers add: char ]
+		]
+	].
+	count := count + (cBlock value: currentGroupAnswers value: groupSize).
+	^ count
+]
+
+{ #category : #'day code' }
+AdventOfCode2020 >> day06a: aString [ 
+	^ self day06Counting: aString init: [Set new] counter: [: set : ignore | set size ]
+]
+
+{ #category : #'day code' }
+AdventOfCode2020 >> day06b: aString [ 
+		^ self day06Counting: aString init: [Bag new] counter: [: bag : numberInGroup |
+				| count |
+				count := 0.
+				bag keysAndValuesDo: [: key : value |
+					value = numberInGroup ifTrue: [ count := count + 1 ]
+				].
+				count
+			]
 ]
