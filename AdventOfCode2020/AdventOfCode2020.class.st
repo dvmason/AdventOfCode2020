@@ -1,6 +1,16 @@
+"
+I represent a solution holder for the Advent of Code 2020.
+
+I contain methods for individual days/problems, as well as helper methods.
+
+There are several extensions to various system classes that are part of the solutions as well.
+"
 Class {
 	#name : #AdventOfCode2020,
 	#superclass : #Object,
+	#instVars : [
+		'luggage'
+	],
 	#classVars : [
 		'BoardingPassTable'
 	],
@@ -12,6 +22,11 @@ AdventOfCode2020 class >> initialize [
 	BoardingPassTable := String withAll: (Character allByteCharacters 
 		collect: [:c | ('LF' includes: c) ifTrue: [ $0 ] ifFalse: [ ('BR' includes: c) ifTrue: [ $1 ] ifFalse: [ c ]]]).
 
+]
+
+{ #category : #helpers }
+AdventOfCode2020 >> bagCalled: name [ 
+	^ luggage at: name ifAbsentPut: [ Luggage new ]
 ]
 
 { #category : #helpers }
@@ -69,4 +84,45 @@ AdventOfCode2020 >> day06b: aString [
 				].
 				count
 			]
+]
+
+{ #category : #helpers }
+AdventOfCode2020 >> day07LoadRules: rules [
+	luggage := Dictionary new.
+	rules lines do: [ :line | 
+		| enclosingBag colour shade number |
+		colour := shade := number := enclosingBag := nil.
+		(' ' split: line) do: [ :word | 
+			(word beginsWith: 'bag')
+				ifTrue: [ 
+					enclosingBag
+						ifNil: [ enclosingBag := self bagCalled: shade , ' ' , colour ]
+						ifNotNil: [
+							number = #contain ifFalse: [
+							enclosingBag enclose: number asNumber of: (self bagCalled: shade , ' ' , colour)
+					]]]
+				ifFalse: [
+					number := shade.
+					shade := colour.
+					colour := word ] ] ].
+
+]
+
+{ #category : #helpers }
+AdventOfCode2020 >> day07a: rules with: target [
+	self day07LoadRules: rules.
+	^ ((self bagCalled: target) enclosingBags: Set new) size
+]
+
+{ #category : #'as yet unclassified' }
+AdventOfCode2020 >> day07b: rules with: target [
+	self day07LoadRules: rules.
+	^ (self bagCalled: target) numberOfEnclosedBags - 1
+]
+
+{ #category : #initialization }
+AdventOfCode2020 >> initialize [
+	super initialize.
+	luggage := Dictionary new.
+
 ]
