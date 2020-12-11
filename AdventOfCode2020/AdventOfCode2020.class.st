@@ -120,6 +120,26 @@ AdventOfCode2020 >> day07b: rules with: target [
 	^ (self bagCalled: target) numberOfEnclosedBags - 1
 ]
 
+{ #category : #'as yet unclassified' }
+AdventOfCode2020 >> day08a: aString [ 
+	| cpu |
+	cpu := Cpu new load: aString lines.
+	cpu run.
+	^ cpu accumulator
+]
+
+{ #category : #'as yet unclassified' }
+AdventOfCode2020 >> day08b: aString [ 
+	| cpu |
+	cpu := Cpu new load: aString lines.
+	1 to: cpu numberOfInstructions do: [: i |
+		cpu toggleNopJmp: i.
+		cpu run ifTrue: [ ^ cpu accumulator ].
+		cpu toggleNopJmp: i.
+	].
+	self halt
+]
+
 { #category : #initialization }
 AdventOfCode2020 >> initialize [
 	super initialize.
