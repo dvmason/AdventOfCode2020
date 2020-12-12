@@ -1,6 +1,11 @@
 Extension { #name : #String }
 
 { #category : #'*AdventOfCode2020' }
+String >> asLinesThenNumbers [
+	^ self lines collect: #asNumber
+]
+
+{ #category : #'*AdventOfCode2020' }
 String >> day02a [
 	^ (self lines select: [: line | line isAOCValidPassword ]) size
 ]

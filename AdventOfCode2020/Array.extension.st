@@ -1,6 +1,36 @@
 Extension { #name : #Array }
 
 { #category : #'*AdventOfCode2020' }
+Array >> countFrom: base startAt: start withMemo: memo [
+	| count |
+	count := 0.
+	self size < start ifTrue: [ ^ 1 ].
+	(memo at: start) ifNotNil: [: value | ^ value ].
+	base + 3 >= (self at: start) ifTrue: [ 
+		count := count +
+		         (self
+			          countFrom: (self at: start)
+			          startAt: start + 1
+			          withMemo: memo) ].
+	self size >= (start + 1) ifTrue: [ 
+		base + 3 >= (self at: start + 1) ifTrue: [ 
+			count := count +
+			         (self
+				          countFrom: (self at: start + 1)
+				          startAt: start + 2
+				          withMemo: memo) ] ].
+	self size >= (start + 2) ifTrue: [ 
+		base + 3 >= (self at: start + 2) ifTrue: [ 
+			count := count +
+			         (self
+				          countFrom: (self at: start + 2)
+				          startAt: start + 3
+				          withMemo: memo) ] ].
+	memo at: start put: count.
+	^ count
+]
+
+{ #category : #'*AdventOfCode2020' }
 Array >> day01a [
 	self withIndexDo: [: first : index |
 		(self allButFirst: index) do: [: second |
@@ -50,4 +80,22 @@ Array >> day09b: skip [
 			sum = target ifTrue: [ ^ smallest+largest ]
 		]
 	]
+]
+
+{ #category : #'*AdventOfCode2020' }
+Array >> day10a [
+	| previous ones threes |
+	ones := threes := previous := 0.
+	self sorted do: [: joltage |
+		joltage - previous = 1 ifTrue: [ ones := ones + 1 ].
+		joltage - previous = 3 ifTrue: [ threes := threes + 1 ].
+		previous := joltage.
+	].
+	^ ones * (threes + 1)
+
+]
+
+{ #category : #'*AdventOfCode2020' }
+Array >> day10b [
+	^ self sorted countFrom: 0 startAt: 1 withMemo: (Array new: self size)
 ]

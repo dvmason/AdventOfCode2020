@@ -7943,6 +7943,113 @@ AdventOfCode2020Tests >> dataForDay09 [
 '
 ]
 
+{ #category : #data }
+AdventOfCode2020Tests >> dataForDay10 [
+	^ '128
+6
+152
+16
+118
+94
+114
+3
+146
+44
+113
+83
+46
+40
+37
+72
+149
+155
+132
+9
+75
+1
+82
+80
+111
+124
+66
+122
+129
+32
+30
+136
+112
+65
+90
+117
+11
+45
+161
+55
+135
+17
+159
+38
+51
+131
+12
+123
+81
+64
+50
+43
+19
+63
+13
+153
+110
+27
+23
+104
+145
+18
+125
+86
+10
+76
+26
+142
+59
+47
+160
+79
+139
+54
+121
+97
+162
+36
+107
+56
+25
+99
+24
+31
+69
+137
+33
+138
+130
+158
+91
+2
+74
+101
+73
+20
+98
+154
+89
+62
+100
+39
+'
+]
+
 { #category : #running }
 AdventOfCode2020Tests >> setUp [
 	super setUp.
@@ -8250,4 +8357,102 @@ AdventOfCode2020Tests >> testDay09b [
 309
 576' lines collect: #asNumber) day09b: 5) equals: 62.
 	self assert: ((self dataForDay09 lines collect: #asNumber) day09b: 25) equals: 5388976
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay10a [
+	self assert: '16
+10
+15
+5
+1
+11
+7
+19
+6
+12
+4
+' asLinesThenNumbers day10a equals: 35.
+	self assert: '28
+33
+18
+42
+31
+14
+46
+20
+48
+47
+24
+23
+49
+45
+19
+38
+39
+11
+1
+32
+25
+35
+8
+17
+7
+9
+4
+2
+34
+10
+3' asLinesThenNumbers day10a equals: 220.
+	self assert: self dataForDay10 asLinesThenNumbers day10a equals: 2232.
+
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay10b [
+	self assert: '16
+10
+15
+5
+1
+11
+7
+19
+6
+12
+4
+' asLinesThenNumbers day10b equals: 8.
+	self assert: '28
+33
+18
+42
+31
+14
+46
+20
+48
+47
+24
+23
+49
+45
+19
+38
+39
+11
+1
+32
+25
+35
+8
+17
+7
+9
+4
+2
+34
+10
+3' asLinesThenNumbers day10b equals: 19208.
+	self assert: self dataForDay10 asLinesThenNumbers day10b equals: 173625106649344.
+
 ]
