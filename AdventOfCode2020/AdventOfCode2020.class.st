@@ -114,13 +114,13 @@ AdventOfCode2020 >> day07a: rules with: target [
 	^ ((self bagCalled: target) enclosingBags: Set new) size
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'day code' }
 AdventOfCode2020 >> day07b: rules with: target [
 	self day07LoadRules: rules.
 	^ (self bagCalled: target) numberOfEnclosedBags - 1
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'day code' }
 AdventOfCode2020 >> day08a: aString [ 
 	| cpu |
 	cpu := Cpu new load: aString lines.
@@ -128,7 +128,7 @@ AdventOfCode2020 >> day08a: aString [
 	^ cpu accumulator
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'day code' }
 AdventOfCode2020 >> day08b: aString [ 
 	| cpu |
 	cpu := Cpu new load: aString lines.
@@ -140,9 +140,64 @@ AdventOfCode2020 >> day08b: aString [
 	self halt
 ]
 
+{ #category : #'day code' }
+AdventOfCode2020 >> day11a: aString [ 
+	| neighbours |
+	neighbours := { 	-1 @ -1 . -1 @ 0 . -1 @ 1 .
+										 0 @ -1 .           0 @ 1 .
+										 1 @ -1 .  1 @ 0 .  1 @ 1 }.
+	^ self seatIteration: aString findNeighbours: [: previous : row : col | | occupied |
+			occupied := 0.
+			neighbours do: [: n |
+				(previous at: row+n y at: col+n x) = $# ifTrue: [ occupied := occupied + 1 ] ].
+			occupied ] crowded: 4
+]
+
+{ #category : #'day code' }
+AdventOfCode2020 >> day11b: aString [ 
+	| neighbours |
+	neighbours := { 	-1 @ -1 . -1 @ 0 . -1 @ 1 .
+										 0 @ -1 .           0 @ 1 .
+										 1 @ -1 .  1 @ 0 .  1 @ 1 }.
+	^ self seatIteration: aString findNeighbours: [: previous : row : col | | occupied tRow tCol |
+			occupied := 0.
+			neighbours do: [: n |
+				tRow := row.
+				tCol := col.
+				[(previous at: (tRow := tRow + n y) at: (tCol := tCol + n x)) = $.] whileTrue.
+				(previous at: tRow at: tCol) = $# ifTrue: [ occupied := occupied + 1 ].
+			].
+			occupied ] crowded: 5
+]
+
 { #category : #initialization }
 AdventOfCode2020 >> initialize [
 	super initialize.
 	luggage := Dictionary new.
 
+]
+
+{ #category : #helpers }
+AdventOfCode2020 >> seatIteration: aString findNeighbours: findNeighbours crowded: nNeighbours [
+	| current empty previous count nRows nCols |
+	current := aString lines collect: [: line | '*',line,'*' ].
+	empty := current first collect: [: ignored | $* ].
+	current := { empty },current,{ empty }.
+	nRows := current size.
+	nCols := empty size.
+	current := Array2D rows: nRows columns: nCols contents: ('' join: current).
+	previous := nil.
+	count := 0.
+	[  current = previous ] whileFalse: [
+		previous := current deepCopy.
+		2 to: nRows-1 do: [: row |
+			2 to: nCols-1 do: [: col | | occupied char |
+				occupied := findNeighbours value: previous value: row value: col.
+				char := previous at: row at: col.
+				(char = $L and: [ occupied = 0 ]) ifTrue: [ current at: row at: col put: $#. count := count + 1 ].
+				(char = $# and: [ occupied >= nNeighbours ]) ifTrue: [ current at: row at: col put: $L. count := count - 1 ]
+			]
+		]
+	].
+	^ count
 ]
