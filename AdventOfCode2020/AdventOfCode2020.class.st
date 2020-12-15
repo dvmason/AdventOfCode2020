@@ -170,6 +170,27 @@ AdventOfCode2020 >> day11b: aString [
 			occupied ] crowded: 5
 ]
 
+{ #category : #'as yet unclassified' }
+AdventOfCode2020 >> day12a: aString [
+	| np |
+	np := NavPosition new.
+	aString lines do: [: line |
+		np command: line
+	].
+	^ np manhattanDistance
+]
+
+{ #category : #'as yet unclassified' }
+AdventOfCode2020 >> day12b: aString [
+	| np wp |
+	np := NavPosition new.
+	wp := WayPoint new navPosition: np.
+	aString lines do: [: line |
+		wp command: line
+	].
+	^ np manhattanDistance
+]
+
 { #category : #initialization }
 AdventOfCode2020 >> initialize [
 	super initialize.
