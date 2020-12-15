@@ -1,3 +1,8 @@
+"
+I represent a bag of luggage.
+
+I am used in AOC2020 day 7.
+"
 Class {
 	#name : #Luggage,
 	#superclass : #Object,
@@ -14,15 +19,10 @@ Luggage >> canBeEnclosedBy: aLuggage [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #adding }
 Luggage >> enclose: anInteger of: aLuggage [ 
 	contains add: aLuggage withOccurrences: anInteger.
 	aLuggage canBeEnclosedBy: self.
-]
-
-{ #category : #'as yet unclassified' }
-Luggage >> enclosesBags: aCollection [ 
-	self shouldBeImplemented.
 ]
 
 { #category : #enumerating }
@@ -41,7 +41,7 @@ Luggage >> initialize [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #enumerating }
 Luggage >> numberOfEnclosedBags [
 	| count |
 	count := 1.

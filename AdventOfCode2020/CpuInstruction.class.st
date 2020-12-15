@@ -1,3 +1,10 @@
+"
+I represent a generic CPU instruction used in AOC2020 day 7.
+
+I have a reference to the Cpu of which I am a part, so that I can access its registers.
+
+My execution and control methods are overridden in some specific instructions.
+"
 Class {
 	#name : #CpuInstruction,
 	#superclass : #Object,
@@ -9,19 +16,19 @@ Class {
 	#category : #AdventOfCode2020
 }
 
-{ #category : #'as yet unclassified' }
+{ #category : #initialization }
 CpuInstruction >> argument: aString [ 
 	argument := aString first = $+ ifTrue: [aString allButFirst asNumber] ifFalse: [aString asNumber].
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #initialization }
 CpuInstruction >> cpu: aCpu [ 
 	cpu := aCpu.
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #execution }
 CpuInstruction >> execute [
 	cpu pc: cpu pc + 1.
 	isFirstExecution := false.
@@ -36,18 +43,18 @@ CpuInstruction >> initialize [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 CpuInstruction >> isFirstExecution [
 	^ isFirstExecution
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 CpuInstruction >> setFirstExecution [
 	isFirstExecution := true.
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #control }
 CpuInstruction >> toggleNopJmp [
 
 ]

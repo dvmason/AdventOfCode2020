@@ -1,3 +1,6 @@
+"
+I represent a Navigation Position for AOC2020 Day 12 parts a and b
+"
 Class {
 	#name : #NavPosition,
 	#superclass : #Object,

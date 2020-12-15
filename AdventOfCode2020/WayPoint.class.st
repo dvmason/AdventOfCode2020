@@ -1,3 +1,6 @@
+"
+I represent a Waypoint for AOC 2020 Day 12b
+"
 Class {
 	#name : #WayPoint,
 	#superclass : #NavPosition,

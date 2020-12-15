@@ -1,3 +1,8 @@
+"
+I represent a CPU used in AOC2020 day 7.
+
+I have an array of CpuInstruction objects that do all the work.
+"
 Class {
 	#name : #Cpu,
 	#superclass : #Object,
@@ -21,17 +26,17 @@ Cpu class >> initialize [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 Cpu >> accumulator [
 	^ accumulator
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 Cpu >> accumulator: anInteger [ 
 	accumulator := anInteger
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #initialization }
 Cpu >> addInstruction: aString [ 
 	| ss |
 	ss := aString substrings.
@@ -47,28 +52,28 @@ Cpu >> initialize [
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #initialization }
 Cpu >> load: aCollection [ 
 	aCollection do: [: instr | self addInstruction: instr ].
 
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 Cpu >> numberOfInstructions [
 	^ instructions size
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 Cpu >> pc [
 	^ pc
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #accessing }
 Cpu >> pc: anInteger [ 
 	pc := anInteger
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #execution }
 Cpu >> run [
 	| instr |
 	pc := 1.
@@ -81,7 +86,7 @@ Cpu >> run [
 	^ false
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #control }
 Cpu >> toggleNopJmp: anInteger [ 
 	instructions at: anInteger put: (instructions at: anInteger) toggleNopJmp.
 

@@ -137,7 +137,7 @@ AdventOfCode2020 >> day08b: aString [
 		cpu run ifTrue: [ ^ cpu accumulator ].
 		cpu toggleNopJmp: i.
 	].
-	self halt
+	self error: 'I ran to termination, which shouldn''t happen.'
 ]
 
 { #category : #'day code' }
@@ -170,7 +170,7 @@ AdventOfCode2020 >> day11b: aString [
 			occupied ] crowded: 5
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'day code' }
 AdventOfCode2020 >> day12a: aString [
 	| np |
 	np := NavPosition new.
@@ -180,7 +180,7 @@ AdventOfCode2020 >> day12a: aString [
 	^ np manhattanDistance
 ]
 
-{ #category : #'as yet unclassified' }
+{ #category : #'day code' }
 AdventOfCode2020 >> day12b: aString [
 	| np wp |
 	np := NavPosition new.
