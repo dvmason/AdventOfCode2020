@@ -191,6 +191,38 @@ AdventOfCode2020 >> day12b: aString [
 	^ np manhattanDistance
 ]
 
+{ #category : #'day code' }
+AdventOfCode2020 >> day13a: aString [ 
+	| time buses bestBus waitTime |
+	time := aString lines first asNumber.
+	buses := ((',' split: aString lines second) reject: [: field | field = 'x']) collect: #asNumber.
+	bestBus := nil.
+	waitTime := buses max.
+	buses do: [: bus | | thisWait |
+		thisWait := (time + bus - 1)//bus*bus - time.
+		thisWait < waitTime ifTrue: [ bestBus := bus. waitTime := thisWait ]
+	].
+	^ bestBus * waitTime
+]
+
+{ #category : #'day code' }
+AdventOfCode2020 >> day13b: aString [ 
+	| buses step offset time |
+	buses := Dictionary new.
+	(',' split: aString lines second) withIndexDo: [: bus : index |
+			bus='x' ifFalse: [buses at: bus asNumber put: index-1]
+		].
+	step := buses keys max.
+	offset := buses at: step.
+	time := offset negated.
+	[ true ] whileTrue: [
+		time := time + step.
+		(buses commonModulus: time) ifTrue: [ ^ time ]
+	 ]
+	]
+
+]
+
 { #category : #initialization }
 AdventOfCode2020 >> initialize [
 	super initialize.

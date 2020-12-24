@@ -1,6 +1,14 @@
 Extension { #name : #Dictionary }
 
 { #category : #'*AdventOfCode2020' }
+Dictionary >> commonModulus: time [ 
+	self associationsDo: [: assoc |
+		(time+assoc value)%assoc key = 0 ifFalse: [ ^ false ]
+	].
+	^ true
+]
+
+{ #category : #'*AdventOfCode2020' }
 Dictionary >> isValidPassport: aSymbol [
 	self size = 8 ifFalse: [ ^ false ].
 	aSymbol = #simple ifTrue: [ ^ true ].
