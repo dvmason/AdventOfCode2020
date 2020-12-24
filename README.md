@@ -10,3 +10,5 @@ Metacello new
 	baseline: 'AdventOfCode2020';
 	load
 ```
+
+We're also posting videos on "Dad and Kids Coding": https://www.youtube.com/channel/UC9Sy-cVGzUCt0HkSEadfzYw
