@@ -218,9 +218,7 @@ AdventOfCode2020 >> day13b: aString [
 	[ true ] whileTrue: [
 		time := time + step.
 		(buses commonModulus: time) ifTrue: [ ^ time ]
-	 ]
 	]
-
 ]
 
 { #category : #initialization }

@@ -7,6 +7,9 @@
 *.img7
 *.img
 
+# Emacs backups
+*~
+
 # Pharo Smalltalk Debug log file
 PharoDebug.log
 
