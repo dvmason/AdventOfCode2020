@@ -9,7 +9,7 @@ Class {
 		'east',
 		'north'
 	],
-	#category : #AdventOfCode2020
+	#category : #'AdventOfCode2020-Core'
 }
 
 { #category : #controlling }

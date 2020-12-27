@@ -9777,6 +9777,3145 @@ nearby tickets:
 '
 ]
 
+{ #category : #data }
+AdventOfCode2020Tests >> dataForDay18 [
+	^ '(2 + 6) * 2 + 2 + 4
+6 * 2 * 6 + (8 + 8 * (5 + 4 * 7 + 6 + 6 + 3)) * 8
+2 * 7 * 3 * 6 + 2
+(2 * 4 + 2 + 8) * 4 + 7 + 6 * 7
+7 * ((7 + 4) + 7 * (3 + 4 * 8 + 7 * 8) * 2 * (4 + 3 + 9 * 5)) + (9 * 6) + 8
+7 + 3 * (9 * (3 * 7 + 8 * 4) + (4 * 5 + 7)) * 9
+9 + 9 + 3 + 7 * 3
+(4 + 9) + 8 + 4 * 9 * (6 + 4 * 4 * 3 + 9 + 4)
+5 * (6 * 4 * (8 * 4 * 4 * 9) + 6) * 7 + (8 + 3 + (8 * 3 * 6) * 5 * 5)
+6 * 6 * (6 + 6 + 6 * (8 * 4 * 2 + 8 * 6) + 4) + 3
+5 * 4 + 3 + (2 + 6) * 8 * 4
+(8 + (3 * 7 * 4 + 4) * 2) + (8 * 8 * 4 + 6 * (8 + 9 + 7 + 9 + 5 + 3) * 4) * 5 * 4 * 3
+9 * 7 + 6 * 9 + (3 * (7 * 5 * 6 * 3 + 3 * 8)) * 7
+5 * 8 * 7 * 9 + 5 + (9 * (4 + 4 * 2 + 9 * 7) * 3)
+(6 * 3 + 9 + (2 * 4 + 4 * 3) + 3) + (9 + (5 + 4) + 8) + 6 * 9
+6 * (8 * (2 + 3 * 6 + 6 + 9) + (7 + 6 + 2) * 9 * 9)
+(7 * (8 + 3 * 8 + 5 + 2 + 2) * (9 * 9 * 3 + 4 + 5) + 5 + 6 + 8) * 5 * (5 + (6 + 3 + 4 * 3 + 6) * 3) * 8 * 3
+9 * 8
+7 + ((6 * 7 + 5 + 8) * (5 * 9 + 9))
+3 * 8 + 7 + 7 + (3 * 5 + (9 + 3))
+(2 + (5 * 2 + 5 + 8) * 8 * (7 * 7) + (7 + 4 * 2 * 6 * 8 * 2) + (9 * 3)) + (2 * 2 * 6 * 6) + 5 * (5 + 5 + 6 + (6 * 3 + 8)) * 7
+7 * (7 + 7 * 8 + (9 + 9) + (5 + 5 * 8)) + 4
+8 + ((5 * 4 + 5 * 9) * 2 * (9 * 6 + 9 + 3) * 5) * 2 * (5 * 6 + (2 * 2 + 2 * 5 + 3 * 7) + 7 + 8)
+(8 + 9 * 6 * 6 + 4 * 6) * 9 * 4 * (9 * 7 + 2 + 5 * 3 + (2 * 3 + 8 + 5 * 7 * 8)) + 2 * 9
+(4 * 9 * 9) * (2 * 9 * 2) * 3 + 6 * (2 + 6 * 4 * 7 + 8 + (6 * 7 + 6 + 4)) + 6
+(5 + 2 * (7 * 2 + 6 * 8 + 4 * 5) * 2 + 8) + 8
+3 * 6 * 8 + 2 + ((3 + 7 + 4 + 2) + 9 * (2 + 5 * 4 + 4 + 6) + (7 + 8 + 3 * 4 * 2)) * 9
+(2 + 7 * 7) * (7 * 8 * 9) * ((5 * 4 + 5 + 2 + 6 + 7) * 7)
+(6 + 2 + (9 * 2 + 2) * 7 * 7) * 2
+7 + ((8 * 3 + 3 * 2 * 6 * 5) + 7) * 8 + 4 + (6 + 5 + (2 * 2 + 5 * 3) + 5 * (5 * 6 + 4 + 7 * 3)) + 8
+7 * 7 * 8
+7 + 7 * 4 + ((6 + 9 + 5) + 3 * 5 * 7 + 7)
+2 * 3 + (8 + 5 * 3 + 8 + 7 * 2) + (2 * (5 + 2 + 5 * 6 * 2 * 7) + (6 + 8 + 7 * 5)) + 9 * 4
+5 * 5 + 6 * 6 + 7 * (5 * (2 + 6 + 6) * (5 * 9 + 8) + 7 * (9 * 5 * 8 + 2 * 4))
+((7 * 6) + 8 * 9 + 8 + 9) * 8 + 7
+4 + 5 + (8 * 7 + 8) + (3 + (2 * 2) * 9 + (7 + 7 * 9 + 8))
+(7 * (4 * 5 * 9 + 4 + 8 * 7) + (8 * 7 + 9 + 9)) + 2
+9 * 4 * (2 * (6 * 9) + 3)
+((7 + 4 * 6 + 4 + 6 * 4) * 6 + 3) * 2 * 2 + 5 * 7
+((6 * 5 * 9 + 7 + 9 + 4) + (7 + 2 + 7 * 3) * 9 + 9 + (7 + 7 * 9 * 5 * 3 + 6)) + 7
+4 * ((6 + 2 * 9 + 6 + 3 * 3) * (6 * 8 * 7 + 5 * 4)) + 8 * 8 + 7
+(5 * 3) + 3 + 4 * (5 + 8 + 2)
+6 + 3 + 5 + 4 + 4 * 4
+2 * (3 + (8 * 9 * 3 * 3 + 8) + (9 + 7) * 7 * 2) + (5 + 4 * 7 * 2 * 3 * 6) + 7 * (7 * 4) * (4 * 5 + 6 + (6 * 3) + 6 * 5)
+3 + 7 + 8 * 3 + (3 * 2 * 4) * 9
+9 + (2 + 2 * 6 + (9 * 9 + 6 + 8 + 5) + 4) + 2 * ((7 + 2 + 6 + 7 + 3 + 4) + 2 + 8 * 3 * 3) + 9
+3 + ((6 + 5 + 6 + 7 + 9 * 4) * 9 * (2 * 6 * 6) * 6 + (9 * 9 + 8 * 9) * 2) * 6 + 3
+(2 + 8) * 7 * 3 + 9 * (7 + 6 * 7 * 4)
+(5 + 2 + 2 * (3 + 5 + 5 * 9 + 2) + 5 * (9 + 8 + 2 + 2 * 4)) + 6 + 6 * 3
+3 * 5 + 6 * (8 * 3 * (7 + 8 + 6 + 4 + 9) * 7) * 7
+2 * 9 * 8 * (6 + 5 + (3 * 9 + 6) + 3 * 4 * 4) + 2
+3 + 8 * (4 + (3 * 5 + 6 * 2 * 7) * 2 * 2 + 2 * 5) + 2
+((6 + 9) + 3 * 3) + 9 + 3 * (8 * 2 * 6 * 5) + 2
+7 + 5 + (7 + (2 * 3 * 4) + 2 * (5 + 8 * 2 + 4 * 4 + 7))
+2 + (4 * 9 + 7 + 8 * 4 + 4) * 9 + 5 * 5 * 8
+5 + 5 * (3 * (2 + 5 * 3 + 7 + 5 + 3) + 6 * 9 * 7 + 6) + (7 * 8 * (9 * 9 * 9) * 2 * 9 + 2)
+9 + (9 + (8 * 7 * 7 + 6) + 9 + 6 + 4) + 9 + 5 * 2
+4 + (6 * 9 + (8 * 7 + 8 * 6) + (6 + 8)) + 2 + (4 * 3 + 6)
+8 + 5 + 3 * (9 + 7 + 2 + 7 * 4) * 6
+(3 * (9 + 9) + 7) + (6 * 8) * ((7 + 7 + 4 + 5 + 6 + 6) + 8 * 7) * 8 + (2 + 7 + 4 + 5 + 9)
+(5 * (8 + 9 * 2) * (3 + 5 * 7 + 9) * 6 + (8 + 3 + 5) * (9 * 9)) + 6 * 5 + 6
+((6 + 5 * 9 + 3 * 6) + (3 + 4 + 8) * (5 * 4 + 4 + 6) * 2 + 9) + 6 * 5 * 4 * 4 * 5
+5 + (7 * 9 + 9 + (9 * 4 + 5 * 9 + 5) + 5) * 7
+5 + (3 * 3 + 6 * 9 * 5 * (7 + 5 + 2)) + (8 * (4 * 2)) + 9 * (7 * 6 + 8 + 5 + 9 + 6) + ((6 + 2 + 5) + (4 + 3 + 3 + 2 * 3 + 4) * 3 * 9 * 3)
+7 * (2 + 2 + 6 + 7 * 7) * 2 * 7 + (8 * 7) + 5
+2 + (7 * 6 + (4 * 2 * 9 + 3) + (2 + 5)) + 8 * (2 * 2 * (8 * 3 * 3 * 6 + 2) + 7) * (8 + (7 + 4 * 6 + 5 * 9) + 4)
+((6 * 3 * 6 + 3) * (3 + 4 + 9 * 6 + 6) + 4 + 2 * (9 * 9 + 4) * 3) + 4 + 6
+8 + ((5 + 7 * 5 * 8 + 9) + 4 + 8 * 4 * 5) + ((3 + 4) + 3 * 7 + 9) + (6 + 2 * 9 + 5) + 9
+(9 + (8 * 5 * 7 * 4 * 2 * 7) + 8) + 8 * 7
+9 * (4 * 7) + 8
+3 * 6 * (5 + (5 * 5 + 6) + 2 * 5 + (8 + 2 * 4 + 9 + 4)) + 8 + 7
+((6 + 8 * 2) * 2 + (4 + 2 + 5 + 9) + 9) + 2 * (8 * (2 + 9 + 5 + 4)) + 9 + 4 * 2
+4 * 5 * 4 * (3 * 4 + 4 * (5 + 3 + 8 * 2 * 7 * 5) * (6 * 4 * 8 + 5 * 9 * 8) * 9) + 7 + 2
+8 * 6 * 9 + 3 + (6 * 7 * (6 * 7 + 6 * 6) + (9 + 3) * (7 * 7 + 9))
+3 * (9 + 7 + (5 * 9 + 4))
+5 * (2 * (5 + 4 * 2 * 6) * 4 + (5 + 3))
+7 * ((3 + 8 + 8 + 2 * 2) * 5 * 6) * (7 * 2 + (6 * 4 * 9 * 5 * 9)) * 7
+(5 * 5 + (3 + 3 * 8 * 4) + 8 * 4) * (5 * 9 + 4) * 9 * 7 + 5 * ((2 + 7) * 9 + 5 * 4 + 3)
+9 * 4 + ((3 + 9 * 3 * 2 + 9) + 4 + 6 * 2)
+2 * (6 + 6 + (7 + 6) * 2 * 2 + 4) + ((2 + 3 + 5) * (2 + 9 * 9 + 7) * 4 * (2 + 4 + 6 * 3 * 9 * 3)) + 3 * 4
+(8 * 7 + 6 * 6 * 7 + 9) * 8
+9 + 8 * ((2 * 9 + 9 + 5 * 2 + 5) + (8 * 3 + 7 * 5 + 7) + 9 + 2 + 8) * 8 * (5 + 4 + 8 + 4 * 6) * 8
+6 + 6 * 2 + (6 * 9 * 5 + 6) * 3 + (5 * 4 + 8 * 6 + 9)
+5 * 6 + 7 + (7 * 4 * 4 * 8 * 8)
+(6 + 5 * 3 + 3) * ((9 + 7 + 6) * 4 * 6 * 6 + 4)
+5 * (2 + 7 + 5 + 2) + 6 * 5
+7 + 5 + ((7 * 3) + 5 + 9 * 8) * (3 + 2 * 7 + 7 * 5 * 8) * 7
+3 * 9 + (5 + 8 * (6 + 8 * 6) * 4 + 3 * 4) * (2 + 6 * 5 * 3) * 8 * 7
+9 + 8 + 2
+(3 + 4 + 6 + (5 * 6 * 8 + 4 + 5 + 7) + 6) * 9
+4 * 3 + 9 + 3 * (5 * 4 + (7 + 4 * 2 + 8 + 2 + 6))
+7 * (2 * 6 + (3 * 5 * 7 + 4 + 6)) * 5 + 9 * 4 + 6
+((7 + 4 * 5) + (5 + 5 * 5 + 7 * 6 * 9) * (9 * 3 + 9 * 3) * (6 * 6 * 2 + 5 * 7) * 3) + 6 * 4
+((9 * 7) * 8 + 4 * 8 + 5 + 5) + ((2 + 4 * 3 + 4) * 9 + 2 * 5) + 6 + (4 * 6 + 2 * 9)
+(4 * 3 * 3 * (9 + 9 + 9 + 3 + 6 + 9)) + 9
+((6 + 2) + 9 * 4) * (2 * 7 + 5)
+2 + (4 * 8 * 8 + 8 * 9 * 9)
+((2 + 6 * 4 * 8 + 5) + 2 + 7) * 9 * ((3 * 8 * 7) + 3 * 9)
+((4 + 9 * 5 + 7 + 8 * 8) * 6 + 6 + (5 + 8) + 4) * 8 * (5 + 4 + (5 * 3) * 5 * 6 * 4) + 8 + (2 + 9 * 7 * (5 * 8 + 4 + 2 * 8 + 5))
+5 + (8 * 6 + (2 + 5 + 9 * 8 + 9) * (9 * 2 * 4 + 6 * 5 + 2) * (3 * 8 * 7) + 9)
+2 + 8 + 7 + 6 * (3 + 4 + (6 + 7 * 2 + 9) * 7) * 7
+7 * 8 + 7 + 4 * (5 + 6) * 3
+7 + 5
+(2 + (6 * 3 * 3) + 2) * 5 + 7 + 8 * 6
+(6 + 6) * 3 + (2 * 4 + 3 + (3 + 9) * 9)
+(5 * 4 + 3 * 8 * 9 + 4) + 5 + (6 + 9 + 3) + (9 + 8 * 3)
+5 + 4 * (6 + 5) + (3 + 9 + 4)
+4 * 5 + 5 + 7 * 5 + (6 + (4 * 6 * 8 + 7 * 4 * 6) * 9 + 2 + 3)
+7 * 9 + 6 * (8 * (8 + 6 * 4) * 4) * (7 * 2) + 6
+(3 + 5 * 9 * 8 * 4 + 2) * 3 * 6 * 3
+3 + 8 * 3 + (3 + 3) * 3
+2 * 8 * 8 * (2 * 7 * 9 * 4)
+(5 + 7 + 9 + 7 + 4) + (5 * 9) * 3
+8 * 9 * 5 * 4 * 3 + ((6 + 9 * 5 * 7 * 2) + 5 * 4)
+(7 + 3 * (8 + 2 * 3 * 9 + 2 + 9) * 6 * 9 * 2) * (4 * 4) * (2 * (4 * 8 * 5) + 3) * 2 + 4 * 9
+7 + 8 * 6 * (9 + (4 + 8 * 5) * 2 * 3 * 7) + 6 + 8
+(7 + 7 + 7 * 9) * 2 * 4 + 5 + 5 * 6
+(2 * (3 * 8)) + (5 + 4 * 4 * 3)
+(5 * 7 * (5 * 7 * 9 + 3 * 3) + 7) + 3
+9 + 9 + 8 + 8 * ((3 + 3 * 6 + 4 * 4) + 2 * 3) + 6
+(2 + (2 * 2) + 9 + 7) + (5 + (8 + 4) * 3 * 3) + 4 * 5 + 4 + 3
+6 + (5 * 3 * 7) * 6 + ((5 + 6 * 4 + 3 * 5 * 9) * 4 + 8 + 2) + (8 * 6 + 5 + 2 * 2)
+9 * (5 + 7 + 9 + 9) + 7 * 3 + 4
+(6 * 8 + 5 + 8) * 2 + 2 * (4 * 2 + 8 + 5) + 7 + ((5 * 5 * 3 + 6 * 5 * 8) + 6 * 3 + 2 * 7)
+(3 + (6 + 4 * 6 * 7 * 4) + 5 + 2 * 6) + 5 + 6 + 3
+6 + (8 + 9 + 5 * 5 + 5 * 2) * 6 * 8
+(5 + 2 + 2 * 3 * (4 * 2)) + 8 * 5 + 6 + 3
+7 * (8 * 3) + (7 + 5) + 2 + 8
+5 * 4 + 8 * ((9 * 9 * 3 + 3 + 9 * 8) + 2 + 5 + (7 + 3)) * (3 + (7 * 3 * 6 * 5) * 8 * (6 * 6 + 2 + 9 + 5) * 2 + 5) + (2 + 4 + 5 * 8 * 7 * 6)
+5 + (8 * 6 + (7 * 2 + 9 + 6) * 8 * 2) + 3 * (9 * (5 * 2 * 3) * 5)
+(2 * 8 + 4 * (7 * 8 + 2 + 5 + 3) * 4 * 3) + (7 + 5) + 9 * 9 * 2
+((3 + 7 + 9) + (8 + 8) + 6 + 4) + 4 + 8 + 7 * (4 * 3 * 6 + 7 + 8 * 2)
+9 * (4 * 3 * 8 + 8) * 3 + (4 * 8 + 6)
+7 * ((4 * 3) * 6 + 6) + 5 * 3 * 3 + 9
+4 * (5 * 4 * 3 * (2 + 5 + 6 + 2 * 2 + 6) * (5 * 6 * 2 * 7 * 7) * 6) * 2
+7 * 7 + (8 + (7 * 6 + 7) + 2 + (4 + 5 + 6 + 4) + 2 + 9) + 3 + 3
+8 + ((4 * 6 + 2 + 7 + 9 + 5) * 3)
+3 * 7
+(5 * 7 * 4 + (7 * 6) * 9 + 4) + 5
+(2 * 5 * 9 * 6 * 5 + 7) + (3 + (3 * 6 * 7 + 5 + 2) + 4 + 5) * 6
+9 + ((8 + 9) * 5) + (3 * (7 * 7) * (7 + 8)) * ((8 + 3 * 5 * 8) * 9 * 9 * (6 * 8) + 7) + 8 * 3
+7 + (7 + 9 + 9 + 3 + (8 * 2 * 9 * 6 * 7 * 4) * 6) * 7 + 9
+(9 * 5) + 3 * (2 + 6 * 4 * 6 + 4) + (2 + 5 * 3 + (3 * 7 + 6 + 8)) + 6
+(8 * 2 + 8 * 6 * (4 + 3 + 2 * 3 * 4)) + (7 * 4)
+(2 + 3) + 7
+3 + 3 * 8 + 9 + (9 + (6 * 5 + 7 + 6 + 9 * 6) * 8) + 5
+2 + (6 + 8) * 3 * 3 + 2 + 3
+5 * ((4 + 8) + 2 + 7)
+(3 * 8 * 9 + (9 * 3 + 8 + 2) + 2 * 5) + 7
+4 + 9 * 3 * (4 + 2 + 4)
+5 * 6 * (6 + (7 * 2 * 4 * 5 * 4) + 6 + 5 + (6 + 9 + 7 + 8 * 3) + 3) + 2 * 2 + ((6 + 5 * 9 * 8 * 3 + 4) * 4)
+6 + 8 * 9 + 6 + (5 * 9 + 9 + 7)
+(6 * 6 + (8 + 5 * 5 * 9) * 9) + 2 * 4 + (9 * 4) * 8 * 7
+((5 * 3 * 8 + 6) + (2 * 8 * 4 * 6) + (6 + 8 + 5 + 4 * 5)) * 7
+9 * ((4 * 4 * 6 + 3 * 2) + 3 * 6) + 5 + 7 + 7 + 3
+6 * 3 * 6 * 9
+6 * 7 + 9
+3 * (6 * 8 + 3 + 7 + 8) * (3 + (3 + 2 * 3) * 6 * 8) * 8 * 8
+3 * (9 + 6 + 7 + 9)
+6 * (5 + 6) * 5 + (8 + 5) * 3 * 7
+6 + 2 * ((7 * 2) * (7 * 9 + 8 + 2 * 3 + 5) + 6 + 3)
+5 * 3 * 2 + 7 + (6 * (3 + 3 + 3) * 5 + 6)
+5 * (2 + 7 * 7) * 3 + 3 * 9
+7 + 4 * 9 * ((8 * 5) * 8 * 4 * 4 * 4)
+(5 + 4 + 9 * 9) * (4 * 3 + 2) + 2 * 9 * 7
+8 + (6 * 3 * 8 * 7 + 8) * 2 + 5 * 5 + 3
+4 + 8 * 8 + (4 + (8 * 5 * 6 * 2))
+((3 + 2) * 4 + (7 * 5) + (8 + 5) * (5 + 6 + 5 * 7 + 9)) + 4 + 6
+(6 + 2) + (8 * 4 + 3 * 4 * 7) + 5 * 2 * ((4 + 9 * 6 + 8 * 8) + 6 * 9 + 2)
+7 * 9 * 9 + (6 * (3 * 8 + 3) + 6 + 5 * (4 * 9 * 7 * 9 + 4 + 3)) + 9 * 5
+5 * 9 * 3 * 9
+(6 + (7 * 8 + 4 + 9 * 7) + 8) + 6 * (2 + 7 * (6 * 3 * 9 + 2 * 3)) + 7 * 5
+9 + (5 * 4) * 6 * (8 * 8)
+2 + (8 + 8 * (9 * 6 * 6 * 8) * 2 * 5) + 9 * 9 + 8
+((9 + 3 + 9 * 3) + 9) * 9
+6 * 7 + (2 + 5 * (6 + 6 * 4 * 5) * 3 * 7 * 5)
+6 + (5 + (2 * 4 * 2 + 7) * (3 * 7 * 9 * 5 * 4 + 7)) + 6
+2 * (9 + 7 + (5 * 4) + 3 + 9)
+8 * 9 * (6 * 6 * 9 * 5 * 5 * 9) * 4
+(7 * 2 + 4 + 2) + 9 + ((9 * 7 + 4) + 6 * 5) * (5 * 8 + 8 + 2 + 2) * 3
+7 * (8 * (6 + 7) * (7 * 9 * 2) + 2 + (8 * 6 + 9 * 5 * 3 + 8) * 2)
+((8 + 7) * 9 * 5 * (3 * 2)) + 4
+7 * 7 + 3 + 8 * (3 * (7 + 8 + 9) + 8 + 3 * 3 + 8)
+(4 + 5 * 7 * 3) + (2 * 4)
+9 * (3 * 7 * 6) * (5 + 8 + 3 * 2 + 5) * 2
+7 * (6 * (8 + 5 * 9 * 3 + 8 * 4) * 9 + (8 + 9 + 5)) * (8 * 6) * (7 * 3 * 8 * 9) + 9
+8 + 6 * 5 * 6 + 3
+2 * 7 * 9 + 6
+(2 * 8 + 2) + 4 + 8 + 9 + 7 * 4
+(7 + 3 * 8 + 4) + (4 + 8 * 6) * 8 * ((6 + 5 + 2 * 6) + 3) * 2
+((4 + 2 + 8 + 9) + 3 * 8 + (2 + 5 + 8 + 3 * 6)) + (8 + 7 * 9 + 6 + 9) + 9 + 5
+(6 + 7 + 9 * 8) * 4
+(2 + 7 * 7 + 8) * (7 * 2) + 9
+(8 * 5 + 3 + 5 + 8) * 5 * (2 + 9 + 4 * 8 + 8) * (3 * 6 * 6 * (4 * 4 + 5)) * 6
+5 + ((3 * 5 * 7 * 3) + (5 * 2 * 8 + 6 * 9)) + 4 + (2 * (9 * 9 + 5))
+4 + 3 * 2 + 2 + 8 + 4
+(8 + 2 * 8 + 5 + 5 + 9) + 4 + 5 * 9 + 6
+5 + 9 + 7 + 6 + 6 + (4 * 3 * 7 + 5)
+9 + 3 + 4 * (2 * 6 + 8 * 3) * (4 + 6 * 7 * 3 + 6) * 4
+8 + 9 + 2 + (9 + 9 * 3 + 4) * (3 * 8 + 9 + 3 * (3 * 2)) * (3 * (3 + 9 + 4 + 2 * 4 * 6) + 6 * 8 * 9)
+6 * (7 * 8 * 8 + 5 * (2 + 6 + 9 + 4 * 9))
+9 * (7 + 5 + 9) + (5 * (7 + 7 + 5 * 3 * 7 * 4) * (6 * 9) + 4 * (6 + 4 + 6 * 7 * 9)) * 4 + 6 + 6
+(4 + (7 * 7) * 2 + 4 * 3) + 8 + (3 * 9 * 8 + (5 * 6 * 2) * (7 * 6) * (5 + 4 + 2)) * 9
+((2 * 6) * 7 * (4 + 7 + 9 + 3) * 6 + 6) + 4 * 8 + 6 * 8
+(6 * 2) * (4 * 5 * (9 + 9) + 7) * 6
+7 * 2 * 4 + 4 + 5 + (9 + 3 + 7 * 8 + 5)
+8 * (9 + 7) + 5 + 9 * (4 + 5)
+8 + 7 * (5 + (6 + 6 + 3 + 5 * 8 * 7) + 3) * (8 + 5 * 4 + 9 * 2) * 2 + 7
+3 + (5 * 2) + 5 * 4 + (5 * 5 + (9 * 2 + 8 * 8) * 6 * 8 + 4) + 6
+8 + 9 * ((2 * 8 * 9) * 3 + 9)
+6 * (5 + 5) * 5 * 4 * 3
+(6 + 2 + 3 * 5 + 6) + 8 + 9 * (3 + (9 + 5 + 4 + 9 + 4)) * 2 + (3 * 5 * 2 + 2 * 2 + 3)
+(8 + (5 + 4 + 9) + 8) + (9 + 5 * 2 + 7 * 8 * 7) * 6 + 9 * (2 + 7 * 6)
+2 + 6 * 5 * (6 * 6 * 7 + 4 + 4 + (7 + 6 * 2 * 5)) + (2 + 5 * 8 + 4) * (5 + (2 * 2) + 9 * 2 * 6)
+(8 + (9 + 8 * 5 * 3 * 8) * 7 + 4 + 7 + (7 + 3 + 9 * 7 + 3)) + (4 * 6 * (9 + 9 * 4 + 5) * 6) * (5 * 8 * (5 * 7 + 4 + 7 * 5)) + 9 * 6
+2 * 4 * 3 * 6 * (8 * 9 * (5 * 8 * 6)) * 7
+4 + (4 * (7 * 6 + 2 * 8 + 2)) * 7
+(4 + 8 * 8 * (3 + 8 * 7) * 3 + 8) * 7
+8 + 5 + (7 * 3 + 5 * 4) * 6 + 9
+7 + (5 + (3 * 6 * 8 * 9) * 6 + 7 + (4 * 5 + 8 + 4 + 7 + 5)) + 3 + 6
+(9 * 6 + 2 + 6 + 6) * (8 + 7 * 3) + ((4 * 4 + 3 + 6 * 9 + 5) + 4 * 3 + 5) * 3 * 6 + 4
+8 * 3 * 2 * ((4 * 4 + 5 * 4) + 9 * 6 + 5 * (7 * 7)) * 2 + 7
+8 * 7 * (6 + 6) + (3 * (4 + 8) + 4 * (2 * 4 * 5 + 9 + 7 + 9) + 6) + 4
+4 + (5 + 6 + 4 * 8 + 7 + 9) + ((5 + 7 * 5 * 5) + 4) * 4 * 2
+5 + 9 + 4 + ((4 + 4 * 5 * 2 * 5 * 5) + 5 * 5 * (5 * 3 * 8 + 6 + 4) * 8)
+7 * 2 + 4 * ((9 + 9 + 9 + 4 + 6 + 5) + 7 + (5 * 5 + 6 * 8 + 8) * (5 + 6 + 7 * 6 * 4 * 6) * 9 + (3 * 6 + 7 * 4)) + 9
+(4 + 9 + 5) + (7 * 2 * 7 * 5 + 5) * 8 * 6 * 2
+(4 + (3 * 9 * 5) + 8 + 7) * 9 + (3 * 8 + (5 + 7) + 8 * 3)
+(4 + 9 * 8 * 2 + 3 + (7 * 3)) + 6
+8 + 4 + 5 * 2 * (2 * 9 * (4 + 5) * 3 * (7 + 3 + 6 * 5 * 6 + 2))
+8 * 5 + 8 + 8 + (4 * 6)
+4 + 2 * 9 + (3 + 8 * (7 * 2 + 5 + 4 * 8 * 5)) * ((5 + 6 * 7 * 4) * 7 * 8)
+3 + 4 + 3 * 4 + 6
+(5 * 5 + 2 * (7 + 5 + 4 * 7 + 8 + 6)) * ((5 + 5 + 3 * 4 * 5) * 2 + 2 + 4 + 4 * 5) * 9 + 6
+(3 * 9 + (5 * 6 + 5) + 4) + 2
+(7 + 6 * 8 + 7 + (8 + 5 * 4 * 6)) * 2 + 4
+5 * ((4 * 9 + 9 + 5 * 6 * 4) + 4) + (4 * (3 + 4))
+5 * (4 + 2 + 2 + 9 * 8 * (4 + 7)) + 9 + 7
+8 * (5 + (5 + 8 + 5) + 2) * (9 * 4 * 5 * 7)
+(4 * (2 + 8 + 7 + 9 + 6 * 7)) * 5 * 8 * 6 * 2
+(2 * 4 * (2 * 5) + (9 + 2 + 4 + 6) + 4) + (2 * 3 + (7 + 9 + 7 + 2) * 7) + 5 + 9 + 2
+2 * (8 + 3 + 9)
+4 * 3 * 7 + 4 + (7 + 8 + 2 + 7 * 8)
+3 + 3 + (8 * 7)
+6 + 7 * 3 + 6 * 2 + 4
+(9 * 3 * 5 * 9 * 3) * 6 * ((2 * 5 + 2) * 5) * 8
+(2 * 6) * 2 * (8 + 5 * (2 + 4 * 6 * 6 + 2 + 4) * (9 * 5 * 8) + (8 + 7 + 6 + 6) + 5) + 6 + (5 * 3 * 3 * 7 * (6 * 2) + (9 + 4 * 7 * 2 + 5 * 6))
+(2 * 5 + 4) * 6 + 8
+5 * 4 + (9 * 6 * 3 + 7 * 6) + (9 * 2 + 7 * 5) + 8 + 3
+8 + (6 + (9 * 2 + 9 * 4 + 2 * 9) + (7 + 7 + 2 + 8) + 7 * 8) + 7 * 7
+(3 * 2 + 8 * 9 + (3 * 2 * 6 * 6 + 3)) * 9 + 9 * 8 * 5
+(3 + 4 + 6 + (7 * 6 * 7 + 2 + 6)) * 2 + 5 * 9
+6 + 9 + (8 * 4 * 8)
+9 + 7 * (5 * 5 * 8) + 7
+2 + 8 + (4 * 7 * 4 * (7 + 2) + 2 * 7) * 8 * 9 * (5 * 8 + 8 + 6 + 4 + 5)
+3 * 3 * ((9 * 6 + 2) + 7 + 9 * 5 + 2) * 7 + 9 + 9
+(4 * 6 + 7 * 6 * 4 * 8) + 4 + (2 + 6) * 9 * (2 * 3 * 5 + 7) * 2
+6 + (4 + (2 * 9 + 9 * 5 * 6 * 3)) * 6 * 8
+(8 * 2) * (7 + 7 + (4 * 2 * 2)) * 8 + 4 + 7 * (2 * 2 * (2 + 6))
+4 + 7 + 9 * (3 + 6 * 8 + 3 * 4 + 2) + 9
+8 * 8 * 7 * 5 * 3 * 6
+8 * (2 + 6) * (8 * 7 + (7 * 5 + 5 * 4) * 5 + 5 + 5) + ((7 * 8 + 2 * 3) + 8 + 4 * 4 + 3) * 9
+(2 + 7 * 4 + 9 * (6 + 9) * 9) + 2 * 4 * 8
+(6 * 5 * 6 + 3) * 4 * 3 * 3
+3 * (3 * (3 * 3 + 5 + 4 + 7 + 8) + 9 * 9) * 4 + 4 * (9 * 8)
+7 + 5
+((6 * 7) * 8 * 5 + 3) + 8 * 8 * 6 * 7 * 8
+(9 + 4) * 4 * (7 + 6 * 2 * 7) * 9 * 2
+6 + 5 + (5 * 5) + (3 + 3)
+5 + 6 + (9 + 3 * (3 + 9 * 4 * 2 * 9)) * 2 + (9 + 7 + 8) * 4
+8 + 2 + (7 * 4 + 8 + (3 + 2 + 2 * 4 * 9) * 4)
+6 + ((8 * 6 + 5) * 8 + 9 * 3 + 5) * 6 + 9
+(5 * (8 * 6 * 3 + 8 * 7) * 2 + 2 + 2) + (6 * 5) * 7 * 5 + 8
+(7 + 9 * 6 * 5 * 2 * 3) + 9 * (2 * 2 + 6 * 5 * 5 + 8) + 8 * 8 * 4
+5 * 9 * (6 * 4 * 3 * 7) * 5 + 9 + 5
+7 + 7 + (6 * (8 + 2 * 7 * 9 + 4) + (8 + 9 * 5 + 3 + 9 * 4) + 4) * 9 + 8 * (5 + 5 + 9)
+((9 * 2 * 5 * 7 + 8 + 7) * (6 * 8 + 3 + 5 * 6 + 4) + (3 + 2 * 6 + 7 * 7 * 9) * 5) + (6 + 4)
+7 + 2 + 8 + (6 * 8 + 7) * 2
+9 + (3 * 6) + (3 + 8)
+3 * 3
+4 + (2 + 4)
+2 + 8 * 4
+4 * 5 * (5 * 7 * 6 * (3 + 5 + 6 + 5)) * (8 + 7 + 5 * (2 * 6 + 9 * 5) * 2 + 8)
+6 + 6 * 2 + ((9 + 6 + 2 + 5 + 7) * 8 + 2 + 2 + 3) * 4
+3 + 6 * 8
+5 * 3 + 6 + 8 * ((6 * 4) + 4 * 6 + (4 + 5 + 4) + 3 + (7 + 2 * 8)) * (6 + 2 * 4)
+3 + 3 * 2 * 2 * 2 * ((5 * 5 * 9 + 5 * 3) + 4 + 5 * 9 * 6)
+(7 * 6 + 6) * (5 + 4 * 6 * 8)
+4 + 7 + (4 + 5 + 7 * 6) * 3
+8 * ((5 * 6 * 5 + 9 + 3) + 6 + (4 * 8 + 7 + 5 + 7) + 6 * 5 + (4 + 9 * 5 + 2))
+(9 + 5 + 6 * 7 * 4) + 8 * 3 + 4 * 7
+(2 * 2 * 4 + 4 * 4 * 5) * 3 + 6 * 3 * 4 + ((8 + 2) + 4 + 6 * 2)
+(9 + 4 + 9) + 7 * 9 * 6
+7 * 3 + (9 * 2 + (2 * 6 * 8 + 3 * 2) * 5 * 5 + 7)
+8 + 7 * 6 + 3 * ((6 * 6 + 3) * 3 + 5 * 5 * 8) * 7
+3 + 6 + ((2 + 5 + 7) + 5 * 2 + 9) * 7 * 2
+2 + 3 * 3 * ((9 + 3 * 3) + 7 * (3 * 4 * 7) * 8 * 9) * 3
+8 + 7 * 2 * 2 * 3 * (8 * 5 + 8 * 2 * (7 + 2 + 3) * 7)
+8 + 4 + 8 + ((3 + 7) * (5 + 9 + 9 + 5 + 7) + 6 * 4 * 7)
+((7 + 8 + 3 * 9) * 9 * 4 * 4 + 8 * 8) + 2 * 6 * 6 + ((8 * 9) + 2 + 9)
+5 + ((8 * 2 * 5 + 4 + 8) * 9 + 6) + (2 * 5 + 3 * 9 * (2 * 5 * 5)) + 2 * 5
+2 * ((2 * 5 * 8 + 9 * 6 * 4) * 5 + 5 * 6 * 2) * (9 + 6 + 9) * (5 + 3 + 5 + (8 + 9) * (6 + 3 + 2 * 6 * 3)) * 9
+5 + 5 + (4 * 5) + ((3 * 8 + 8 * 6 * 2 * 4) + 3 + 9 + 5 + 2) * 2
+(9 + 9 + (3 * 6 + 6 * 2) * 9 + 4) * (7 * 4 + 3) * 4 + 3 + 9
+4 + (7 * 2 + (5 * 3 + 9 * 7) + 8 * 9 * 7)
+6 + ((7 * 9) * 9 * 3 * 6 + (7 * 8 * 7)) + (9 * 9 * 5) * ((6 + 6 + 4) + 4 + 5 * 7) + ((2 * 9 * 9 * 9 + 3 + 5) * (6 + 2) * (6 + 5 + 9) + 2) * 6
+7 * 9 + 2 + ((2 + 5 + 5) * 4) * 9 + 3
+9 + 5 + 5 * (8 + 7 * 7) + (7 + 8 * 9 + 4 + (8 + 8)) * (3 + (2 + 4 + 5) * (3 + 7 * 5 + 7 + 2 * 6))
+4 * 2 * (7 * 6) + 3
+(3 * (6 + 4 * 6 * 8) + (2 + 4 + 8 * 5) + 3 * 4) * 6 + 8 + 3
+8 * 4 + 9 + 7 * 4
+5 * 3 * 9 * 9 * 5 * (6 + 2 + 4 + 5 * 9 * 7)
+3 * 9 * 3 + 9
+5 * (6 * (4 + 5 + 5 + 9) * 3) + (9 + 2 * 5 + (8 + 3 * 2 + 9) + 2) * 3
+3 * (5 * (2 + 3 + 6 * 3) + 6) + 2
+7 + ((7 * 3 * 4 * 5 * 3 + 2) + (6 * 3 + 7 + 6 + 9) * 3) * (7 + 7 * 3 + 8 + 2 + (3 * 5 + 5)) + (7 * 5 + (5 * 3) + 7 + 2 + 8) * 5
+4 * 4 * 6 + 4
+8 * (5 + 4 + 7 + (9 + 9 + 5)) * 3 * 7 + 2
+4 * (7 + (6 * 4 * 4 + 6 * 8 + 5) + (3 * 5 + 8 * 6 + 5) + 4) * 7 * 4 * 7
+2 + (5 * 6) + (5 + 4) * 8
+9 * ((6 * 2 + 5) + 8 + 6 * 8 * 8 * 6) + 8 * 5 * 9 + 4
+3 + ((5 + 3) + 7 * (3 + 5 * 3 + 9 + 5) * 6 * 6) + 2 + 5 * 9
+4 * (8 + 4 + 2 * 8 + 6) + 9
+(5 * 9 * 6 * 6) * 8 * 4
+(9 * 7 + 8 * 3 * 8) + 9
+8 * 9 + 4 + 2 * 9 * 2
+5 * (2 + 7 + (2 + 7 * 5 + 2) * (3 * 5 + 5 * 7 * 8))
+6 + (4 * 6 * (9 * 5 + 9 + 7) * 6 + 4) * 4 * 6
+8 + 9 * 8 + (2 + 8 * (5 * 7 * 7 * 9 + 8 + 4) + (6 * 4 * 9 * 8 * 4 * 9)) * 7 * (3 * 9 + 8 + 2 * 4 * 8)
+(9 * 7 * 4 + 5 * 8 * 7) + 2 + 4 + 3 + (5 + 5 + 8 * (4 + 2 * 7 * 8) + (7 + 2 + 6 * 5 + 2 + 5) * (4 + 3 * 8))
+6 * 2 * 5 * 2 + (6 * 8) * (2 + 8 + 3 + 7 * 6)
+(7 * 9) + 4 * 7 + (5 * 9 + 7 * 3 + (2 * 4 * 9 * 9 * 6)) + 8
+6 * 4 + (5 * 6) * 7 + 6 * 7
+(4 + 7 + 8 * 9 + (6 * 9 + 8) * (8 * 9 * 5 + 4 * 9 + 3)) * 2 * 3 + 6
+6 + 5 + 9 * (6 + (8 + 8)) * 4 + 2
+9 + (2 * (7 * 9 + 2 + 9) + 2) * 3 * 8 * ((4 + 6 + 9 + 5) * (5 + 2 + 9 + 3 + 5 * 9) + (8 * 2) * 3) + 9
+(9 + (3 + 8 + 7 * 2) * 6 + 6 * 8 + 7) * 3
+((4 * 4 * 9) * (3 * 6) * 3 * (8 * 4 * 5) * 5) + 2 + (9 * 5 + 8 * (7 * 4 + 9 + 3 * 3 + 2) + (3 * 4 * 9)) * 7 + 9
+2 + 3 * (3 * 4 + 4 * 3 + 2 + 7) * 8 * 9
+((6 * 7) + 3 + 7 + 3) + 4
+(5 + 3) + 2 * (8 + 4) * 3 + 7 + 9
+(8 + 5 + 5) * 6 + 6 * (5 + (7 * 6 + 7 * 6 + 3) + 2 + 5 * 6 + 6) * 3
+9 + 2 * 5 + (8 + (8 + 6)) + 8 + (4 * 2)
+(5 * 5 + 5) * (4 * 5 + 2 * 3 + 4) + 9
+5 + (9 + (8 + 9 * 2 * 9 + 8) * 5 + (4 + 4 + 4 * 6) + 4) * ((3 + 9 * 7 + 8 * 2 * 7) + 3 + 6 + (3 * 3 * 7 * 2 + 3) + 2) * 5
+2 + 6 + 5 + (6 * 3 * 9) + 2 * 9
+8 * 7 + 9 * 2 + (3 + 7 * 6)
+7 * 6 * (7 + 8 * (2 * 5)) * 2
+9 * 6 * (8 * 8 * 4) + 6 * 6 * 5
+9 * 5 * 9 + ((2 * 7 + 8) + (2 + 4 * 2 + 9 * 3 * 6) * (9 + 8)) + 8
+2 * ((7 * 6 + 9 + 5 + 2 + 3) + 6 * (8 + 3 + 9) * 2 * 3 + 7) * 3 * (6 * 9 * 2 * 4) + 5 * 6
+4 * (7 * 4 * 4 * (4 * 2)) + 4 + (3 * 9 * (5 + 2 * 7 + 8 + 8) + 5 + 6 + 5)
+3 * 7 + 7 + (7 + 7) * 4 * ((8 + 4 * 3 + 7 + 3) * (2 * 3 + 4) + (2 * 6 * 3 + 6 * 2 + 7))
+8 + 2 * 5 * (2 * 7 + 9 + 3 + (7 * 2) * 4)
+4 + (9 + 3 + 5) * (6 * 3 + (6 + 8 * 2) * 5 * 4) + 3
+8 * 2 * (5 * 9 + 4) + 5 + ((7 * 7 * 2 + 5 + 3 * 9) * 8) * 9
+2 + 8 + 8 + 4 * ((7 + 9 * 7 + 5) * 5 + 2 * 9 * (2 + 2 + 7 * 7 + 4) * 3) + 5
+(7 * 8 + 8) * 8
+8 * 6 + 8 + 3 + 2 + (8 + 9 + 2)
+6 + 4 * 9 * ((9 + 9 * 2) * (5 * 7 * 3 + 4 * 6 * 6))
+(9 + 4 + 7) + 2 + ((8 * 8 * 8 + 7) + 3 * 3 + 8 + 5 * (9 * 7 + 3 + 2 + 2 + 9))
+(9 * 2 + (6 * 4 * 8 * 9 * 9 + 5) * 2) * 7 + 4 * (6 + 7 * 5 * 5 * 6 * (9 * 3 + 8))
+8 * (7 + 5 * (8 + 3 + 9) + 6 + 6) + 2 + (4 * 2 + 8 * (3 * 4) + 7) + (2 + 4) * 8
+(6 * 4 * 7 * 7 * 6 * (5 + 6 + 4 * 8 * 9)) + 7 + (8 + 3 + 6 + 8) * 8 * 5
+4 * (4 + (7 + 3 * 2 + 9)) * 3 + 6 * 7 * 4
+9 * (8 * 6 + 7 * 9 + 4 + 9) * 7 * 4 + 8
+((8 * 7 * 6 + 4) * (4 + 9 * 5 + 8 * 2 * 7) * 2 + (6 * 3 + 9 + 6 + 5 * 7)) * 4
+5 + 2 * ((7 * 8 * 6 * 4) * 4) * 4 * 4 + 9
+5 + (2 + 2 + 3 * 5) + 2 * 2 * (7 * 7 * 2 + 4)
+8 * (7 + (9 + 5 * 6 * 6) * (6 + 5 + 7)) * 3 * 6
+(7 * 7 * 2 + 3 + 9) + 3 + 7 * 4 + 8 + 4
+5 * (7 * 6 + (8 + 5 + 2) + 7 * 7) * (6 * (2 + 5 * 4) + 4 * 7 + 4 * (6 + 7)) + 2
+'
+]
+
+{ #category : #data }
+AdventOfCode2020Tests >> dataForDay19 [
+	^ '16: 95 7 | 53 12
+41: 12 13 | 7 107
+12: "a"
+56: 17 12 | 129 7
+102: 12 5 | 7 53
+30: 105 7 | 26 12
+66: 7 5 | 12 119
+14: 27 7 | 109 12
+62: 95 7 | 43 12
+21: 12 12
+23: 12 112 | 7 38
+108: 7 43 | 12 21
+80: 7 21 | 12 91
+72: 7 41 | 12 89
+117: 35 12 | 37 7
+83: 7 91 | 12 5
+13: 94 12 | 95 7
+18: 7 62 | 12 87
+24: 21 12 | 19 7
+35: 7 81 | 12 113
+8: 42
+20: 12 27 | 7 1
+120: 12 29 | 7 97
+110: 107 7 | 102 12
+7: "b"
+32: 7 92 | 12 83
+116: 12 40 | 7 98
+86: 65 94
+75: 12 118 | 7 119
+46: 7 103 | 12 80
+49: 109 7 | 57 12
+95: 12 12 | 7 7
+128: 7 19 | 12 5
+19: 12 65 | 7 7
+94: 7 12 | 12 7
+99: 38 12 | 21 7
+130: 7 6 | 12 116
+76: 7 118 | 12 94
+85: 7 67 | 12 126
+104: 12 19 | 7 38
+22: 44 7 | 24 12
+79: 66 7 | 24 12
+114: 70 7 | 115 12
+27: 5 12 | 118 7
+4: 7 91 | 12 21
+105: 106 7 | 58 12
+70: 18 7 | 2 12
+33: 7 112 | 12 38
+71: 53 12 | 93 7
+87: 53 7 | 119 12
+28: 7 64 | 12 16
+63: 7 13 | 12 33
+9: 57 7 | 36 12
+34: 7 74 | 12 59
+60: 7 108 | 12 86
+67: 123 12 | 72 7
+37: 52 12 | 71 7
+112: 7 12
+44: 12 5 | 7 118
+26: 121 7 | 63 12
+50: 127 12 | 48 7
+15: 93 12 | 119 7
+68: 112 12
+78: 7 77 | 12 36
+59: 49 12 | 22 7
+109: 5 12 | 95 7
+17: 38 12 | 119 7
+54: 7 68 | 12 25
+92: 119 12 | 94 7
+123: 78 7 | 20 12
+65: 7 | 12
+129: 21 7 | 21 12
+90: 12 112 | 7 95
+98: 7 93 | 12 118
+47: 12 93 | 7 21
+2: 47 12 | 103 7
+115: 125 7 | 56 12
+25: 43 7 | 38 12
+121: 7 23 | 12 99
+36: 12 95 | 7 91
+1: 7 118 | 12 91
+113: 53 12 | 119 7
+42: 12 85 | 7 50
+6: 90 12 | 88 7
+111: 5 12 | 5 7
+69: 12 117 | 7 55
+5: 12 7
+106: 12 101 | 7 75
+118: 7 65 | 12 7
+77: 7 112 | 12 43
+101: 53 7 | 38 12
+31: 7 84 | 12 45
+107: 53 7 | 118 12
+119: 12 7 | 12 12
+97: 119 7 | 112 12
+57: 12 119 | 7 38
+96: 7 98 | 12 4
+100: 96 7 | 120 12
+84: 12 114 | 7 30
+64: 112 12 | 94 7
+0: 8 11
+52: 43 12 | 118 7
+74: 12 28 | 7 79
+58: 12 10 | 7 15
+122: 12 104 | 7 29
+127: 130 12 | 100 7
+103: 21 7
+81: 7 118 | 12 93
+51: 122 12 | 9 7
+10: 118 7 | 119 12
+53: 12 7 | 7 7
+89: 12 128 | 7 80
+82: 12 32 | 7 60
+124: 111 12 | 108 7
+73: 19 7 | 5 12
+3: 7 98 | 12 102
+29: 38 12 | 5 7
+126: 12 39 | 7 51
+43: 7 12 | 7 7
+125: 73 7 | 76 12
+93: 65 65
+11: 42 31
+45: 12 69 | 7 34
+39: 54 12 | 46 7
+91: 65 12 | 12 7
+61: 7 124 | 12 3
+88: 91 7 | 19 12
+38: 7 12 | 12 12
+48: 61 12 | 82 7
+55: 110 12 | 14 7
+40: 112 12 | 43 7
+
+abbbabaabbabaaabbbaabbbabaaabbabbabbbbbb
+bbbbbabbababaabbbbaababbbbbaaabbaabaaaabaaabbbbabaabbbbbaabbabaa
+bababbbababbabbbabbbabaa
+abbabaaaaababbaaabaabbab
+baababaaabbabbbbaaaabbbababaababaabbbabaaaabbbbb
+abaababbabbaaaaaabbbabababaaaaab
+aababbaaaababaaaaaabbbaa
+bbbbababaaaababaababaaaa
+babaaabaabaabaabaabbbbbb
+bbbaaabbbababbabbbbbaaab
+ababababaaaaaabbabaaabbb
+aabbababbabaabbaabaababbbaabaabbbabbababaaabaababbbbaabbbaaaaabb
+babbabbaabbabaaaabbabbbaaaabbbab
+aabbababbbaaabbbbabbaabb
+abbabbbaabaabaabaabbbbba
+babaababbaabbbabababaabaaaabbaaababbabbaabbaaabbbbaaabba
+baabbababbbabbaaaabbaaaabbbbaaaa
+baabbabbbbaaabaaabababaabbabaaabaababbabbaaabaab
+bbaaababaabbabbaababbbab
+abbaaaaabbabbabaaabbabaa
+baaaaabaaabaabbbabaababa
+aaaaaaaaabaabaabbbaaabbbbabbabbbababbaabbbbaabaabbaaaabbaaababbbbbabaaba
+bbbaaabaaabbbaaabbbabbaaaaaaaabbbbbbabbb
+abaaabbbbbaaaaaabbbaabaa
+abababbaababaababbbabbab
+baaaaababbbbbbbbabaaabbb
+aabbaabaaabbaababbbabaab
+bbababababbbbbaaabbaaabbbbbbaaaa
+aaaaaaaaabaaabaababbbababaaababbbbbaabaa
+aabbbabbbbaabbbaabaabaaabbaababbaabbabaababbbabb
+aaaabaababbaaabbbabbbabb
+babbababbbbaabbaaabaabbbbabbbbabbaaabaabbabaaaab
+babbaaaaababbbaababbaabb
+abbbbaabbbbbbbbababbaaaaabbaabbbbbbabaaa
+abaabaaaaaaabaabaaaabbbb
+bababbbbaaababbbabbababb
+ababbababbaababababbbbabaabbbaaaababbbbaaaabaaba
+babaabaabbabaaabbbababab
+babbabbabbaaaababbabbbbb
+bbababaabababbbbbabbbabb
+abaaaaabbabaabababaaaabaabaabbaabaaaababaababbaabababbbabaaaabbbabaaababaabbbaab
+babaabbabbbabbaabbaaabba
+abbabababababaaabbbaaababaababbbbbabbbaaabaaababaababaab
+aaabaabbabbaaabbababbaab
+baaaababaabbaaabbaabbbab
+baabbababaabaaaaababbbaabbaaababbbababaaabbbbabb
+bbababbabaabaabbbbaabababababbaaabbaaaaaaabbbbbb
+bbbaaababaabaabbaaabbbba
+bbabbaabbbababbabaaabbba
+abaabbbbaabbabbabbabaaabaababaab
+bbaabbbabbbbbabbabaababbaaabbbaa
+abaabbaaaabbabababbbbbaaaabaaabbabaabbabbbaaaaab
+babaabaabbbaabbabbabbaabbaabababbaaabaaa
+bbababbbbbbabbbaaaaaababaabababbbbaaaaaa
+aaaabbbbabbabbaaabbaaaba
+aabbababbbbabbaaabababaabbabbbbabbbbaaba
+abbbbaaabbbaaabaabaaabab
+babaaaaabaabbaabbbbbbaababbaaaab
+aaabaabbbabbababbaabbabbbbbababbabbababb
+aaaabaaaaabbabababababbb
+abbabaaabababbaaaaaaabaa
+aabaaabbbabbabbaabbbbaabbabaabbbababaaaa
+bbabbabbabaababbbababbbbaabbabababaaaabaababaaaaabbbaaababaaaaaa
+ababaabbbababbabbababbabbaaabbbb
+abaabbbababbbaabbababaaaabbbababbabbaaabaaababaa
+bbbbbaaaababaababaaaaaaa
+babbbaababbabaaabbaabbbababbbbaabbaabaaa
+babbabbaabbbbabaaaababba
+ababaabababbaaabbabaaaab
+abaabbaabbbbbaaaabbabbaa
+bababbbaabbabbbbaaaaabaa
+abbabbbabbbaaabbaabaaabbbbbbbbbbaaaaabbaabaaabba
+bbbaaaaabaabbbabaaaabbbbbbbaabab
+bbaabbbaabbababaaabaabaa
+aabbbabbbbbbababaabaabbbaaabaaaa
+baabbababbbabbaabbaabbbb
+abaaaababaaaababaaabaaaa
+bbabbbbabaabaaaabaaababb
+baabbbaaabababaabababbbaababaababbabbbbb
+abbbababbaabbabbbabaabbb
+abbabababababbbbaabbabbaabbaaaba
+bbabbaabbbabbbbabbaaabba
+babaaababaaaababaaabbbbb
+baabababaaaaababaababbba
+baabbbaabaaaabbabaaaaabbabababaaaababbbbaaabbaababaaaaaabababbbbbbbbabbaaabaaaba
+baabababbabbabaabbababbaaaabbababbaabaaa
+abaaaabbbabbaaabababbbab
+baaaaababababbbababbbbbb
+babbbbaabababbabaaababba
+ababaabbbabbabbaababbabb
+aabbaabbbbbbbabbbabbbbabbbbaabbaabbababb
+bbbaaaaabaababbbabbabaabbbabbbaabbbaabbabaaabaabaaaabbbb
+bbbaabbaaaaaaabbabbbabbbabbbabbaaaabbbbb
+aabaaaabbabaabbaaabaaaaaabbbabababbbbabb
+babbabaabababaaabbbbbbbbbaabbabbbbabbbaaaaaabbaa
+babbabaababaabababbbbabb
+aabbababbbbbbbbabaabbbababbabaabbabbbbba
+abbbbaaabaababbbaabbabaa
+baabbbabbbbbbabbababbbba
+bbababaababbbaabbbbbabaa
+aababbaaaababbabbbaabaab
+abbbbaabbaaaabbaabaababbbaaaaabb
+babbbababbbaababaaabaabbbabbabbababbabaa
+abababbaabababaaaaaabbbb
+bbaababaaaabaabbbbabbbab
+bbbbababbbbbabbabbbaaababaaaaabb
+babbbaaabaaaaabababbbaababbbbaababbbbaabbbbbaaaabbaaaabbabbbbabb
+abababbabbbaaaaababbaaabbbaaabbbaabbbbaa
+ababbababbabbbaaabbaaaba
+bbaabbaaababaaabaababbaababbbbabbbbbaaaaabbbabba
+aaaabbbababbabbbbbaabbaabaabbaabbbabaaba
+abaabbaaabababbaabbbabaaababaaaa
+aaabaabbaabaabbbaaabbbaabbaabaaabbbaaabbbbaaaabb
+bbabbabbabbbbaabababbbbb
+babaaabaaaaabaabbabababa
+abbabaabbbabbababaabbbbb
+bbbaabbaabbbbaabaabbbaaabababbaabbbabbaaaababbbb
+aababbabaabaabbabbabbbbabaabbbbb
+aaaabaaabbbaaabaaaabaaaa
+babbbaaababaabbbbabaaaab
+abbbabbbbabababbbbbbababababaaabbaaaaaabbbbbbaabbbabaabb
+ababbabaaababbaababaababaabbaaba
+babaabaaabaabaabaabbabbb
+babbbbaaabbaababbaabbaabbbbbbbbbbabbaabababaaaaabbbabaaabbaabaab
+aabaaaabaaaabbbbaabaaabbbaabaaabababbbbbbbbaaabbbbabbaabbabbbaba
+aabaaaabbbaabababbaabbaaabaaabbbbaaabbab
+bbabbabaabbababaabaababa
+abaaabaaabaaaaabbaaaaaaabbbabaabbbbbaaba
+bbbbababababbababbaabababaababbbaababaaabbabaabbbbaabaaabbaabbbbbbabbbbb
+baaabbaabbbabbabaabababaabaababaaaabbabb
+babbbbaabbbabbbaaaabbaaabbbaaaab
+abbbbabaabbabbbabbbaabbb
+aaaababababbabbbabbaabbbbabaaaabbaaabbababaaabbaaababbbb
+abbbbbabaababaaaaaabababbaaabaab
+aabababaaaababaabaaabbaaababbaaa
+aabbbaabbabaababbbabbabbbbbbbaaabbbbbbbaabaaabbb
+abaabbbabbabbbbaaaaaabaa
+bbabababbbaabaaaaaababababbbbbbaabbbaaabbbabbaabbaababab
+aaaabbbabaabbabbabaaabbb
+baabaaaaaabaabbabbbaabbbbaaaaaaaabaababa
+aaaabaababbbbabababbaaaaaabababa
+bbbbabaabababbaaaaaaababbaaabaaaaaaabbab
+bbbaaababaaaababbabbbbabbbaabaab
+aabbbabbabbaaabbbbabaaaabbbbaaab
+abaaabbbaaabaaaabaaababbbbbaaabaabbbbbbbaaaaaabbbabaabbaabababaa
+aaaabaaababbabbbabbababaabbbbbbbaaabaaaaaabbbbab
+abbbbababbbbabaababaabaabbaaaaaa
+aabaaabbaaaaabababbaaaba
+baaaabbbbaabbbabbabaabbabbbbaaaa
+baabbbabbaabbbaababbaaaabbbabbaaabbaaabaaaabaaba
+bbbaaaabbabaababbbaabbbbaabaabbababaaabbbabbabbaabbabaabbbabaaab
+aabbaaaabababbbabbbbaaba
+abaabbbaabbbabbbabaaaabaabbaaabaababbabb
+aaaaaabbababababaaaabaaaaaabbbbb
+aabbaaaaaaaababaaaaabaaabaababaaaababaab
+baabbbaabbbaaabbaaabbaab
+aaaaaaababbaaaaabbababbbaaaaabbaaaaababb
+aaaabaababaabaaaaabbbaaaabababbaaaaabaabbbbabaaa
+abbbbbababaabbbabababbaabababbbabbbbaabaabaabbab
+bbaaabbbababbabababbaaabaaaabbaaaaaababb
+aaaaaaaabbabaaababbabbbaabbaaaaaaaabbbaabbbbabbb
+babbabbaaabaaaaaabbbbaaabbabbbbbaabababa
+baabbbabaababbaaaaabbabb
+bbabaaabaaaaaaabbbabbbbaaababaab
+aaaaaaaababbaaaabbaaabba
+aabbabbabbbaaaaabbbaabbaaaaaabaaaaabbbab
+babaabaaabaabbaaabbbbaaabbbaaabaabbabaaaaabbabaabbbababa
+bbabbbbaaabaaaaaaaaabababbbbbbbbbbbaaabbaababbbaabbbaaaaabbbabba
+baababbbbabbabbabababbabbbbbbbabbabaabbb
+ababbaabbababbbaaabbaaabaabbaaababbabbab
+aabaabbbaabaaabbabbbbbabaaabbbbb
+aababaaababbaaabbaaabbaa
+aaabbaaabbbaaabbababaaaa
+bbbabbaabaabbabbaabaabbbaababbabbbabbbab
+aababbabaaabbaaabbaaaaba
+aabbbaaabbbbbbbabaaaabbbbaabaaabaaabbbbb
+bbbaabbaabbbabbbbabbabbbabbaaaaababaabbb
+abbaababbabbbaabbababbbaaaaaaabbababbaaa
+aababbaaabbbbaaabababaabababbaabbaabbbbb
+babbabbabbabbbaaabbbababbbaabbbaaababbaaaababbbaaaababaa
+babbbbabbabababbbbbaabbabaabbababababbbabbbbababaaabababaabaabab
+bbbbbaababbbbabbbaabbaaaaabbabaaabbababb
+abaaaabaaabbabbaaaabbabb
+bbaabbaabbbabbaaaaaaaaaabbbbaaba
+abbbbabbaaabaaaaabbbbabaaabbbababbaaaaaabbaaaaaabbaaabba
+bbbbbbbabababaabbbbaaabaabbbaaabbaabaaba
+bababaaababbbbababaaabbb
+babbabbbbabaaabbaabbabbababbbaabaaabbbabbabaaaaa
+ababaababaabaaaaaabbbaabbabbaaba
+bbabbabbabaabbbbabbaaabbaaaabbaaabababbb
+abaaaabababbabaabbaaabbbaabaaabbbbabbaabbbbbbaba
+bbbbaaababaaabaabbbbaaba
+aaaaaabbaaaabaaaaaababab
+bbabbababbababbbaabbbbab
+bababbbbbaabbbababaaaabbabbabbaa
+bbbaaaaabbaaabbbbabababa
+abaabbbaabbbbaaabbbaaaaababbbabbaaabaaaa
+ababaabaaabbababbaabbaab
+bbbbaaabbaaaaaabbbaaaaaa
+bbbaaabbbbaaabaaaabbbaabbbbaaaab
+baabbabbbababaaabababbabaabaaabbaaaababbbbabbbbbbbbaabbb
+abbabaabababbabaabaabbaa
+aaabaabbbaaaaabababaaaba
+bbaabbbaaaaabbbaaabaaababaabbbbaaaaababb
+bababaaaabbbbaaabbaaaaab
+abbabbbbbbaabbaaabbbaabb
+babbabaaababababaabaabbabbbaabab
+aaaaaaaaaaaabbbabbbabbab
+abbabbbaabbabaababaaabbb
+bbaabababaababaabbbbabbaaaababbb
+abbaababbabaaababbbabbbaabbbbaababaaabbbabbbabbaabaaababbaaabbbbbabbbbba
+abbbbbabbababbbbbbaabbab
+aabaabbabaabaabbbbaaabba
+abbabbbbabbbbbbbababbabb
+abbbbaababaabaaaaaaaaaabbabbaaba
+aaaaaaabbabaabaabaaaababbbabbababaaabbaa
+aabaaaaaabaaaabababbbbbb
+aaaabbbaaabbaaabaabaaababbabaabb
+bbabbabababbbaabbbabaaba
+abbbabbbaabaabbbabaababbbaaaabbaabaabaabbaaabababaaaaabbbbbaabaa
+bbabaaabbbbabbaaaabaaaabaabbbbaa
+abbbbbbbabbabbbbbbaabaaa
+bbbbabaaaabbababababaaaa
+babbbbaaaabaaabaabaabbaabbabaaaabbababaaaabbaabbaabbbaba
+bbabbbaaabbbababaaabbaba
+bbbbaabaaababababbaabaab
+bbbabbbabbabbabbabaaaababaaabbab
+baaaababbaaaabbbbbbbababaaabaabbaaaaabaa
+baaaaababbbbbabbbbbababa
+bbabaaaabbabbabababaaabbaaabaabbbaabbbba
+bbbabbaaaabbabbabbbbaaaa
+abaabbaabbaababbaaabbaaabbbbaaaa
+babaabbaaaaaababbaabbabaaaaabaaabaabbaababbaaababaabbaaa
+ababaaabbababbaababaabaaaaaaabaabaabbbba
+babbbaabaababaaaaabaaabbbbabbbbb
+babbaaaabababbbabbbaabbb
+abaabbaabbaababaabbabbab
+abaabaaabbabbabbbbaaabbbaabbbaaaaaaaabaa
+aabbbabaababaabaaaabbabb
+abaabaabbbbbbaaabbaababaaabaaaabbababbaaababbabb
+abbaabaababaaababbaabbbb
+abbbabaabbabaaabababbbbb
+aababbbbaabaabbababbabaabaababaabbabaabb
+bbabaaabababbaabbabaabaababbabbabbbbbabaabaaababbbbaaaab
+aaaabbbabbbabbaaababbbaabbbabbab
+abaabbbbbbaabbbbaabbaabbaabaabaaaaabaaabbabbaaaabaabbbbabbaabbab
+babbabbbbababaabaaabbaaaaabbabaaabaaabbb
+baabbabaaaaabaaabbbaabaa
+bababbbbbbbbababbbabbaaa
+aabbbaaabbbaabbaaabbbbba
+aababbabaaaaabababaaabbb
+babbbbabbaaaaabaababbaaa
+bababbaababbabbaaaabaabbbbabbbaaaabbbbbaabbaabbabaababba
+baabbabbabbaabaababbababbbababbbbabbabbaaababbbaaababbbb
+bbbbabaabbabbabbababaaababbbbbaaaabbbaabbbbbbbaa
+aabbababbbbbbaabaabbabaababbaabababaaaabbaaaaaab
+aabaaabbbababbabbabaabbb
+bababbbaabababaabbabbbab
+abbabaaaaaabaaaabaaaabaabaaabbbb
+abababbabaaaaabaaaabbaab
+aaaabbbababaaabaaabaabbaaabbababaaaaabaa
+babbbbaaabbabbbbababbbaababaababbbbaaababbabbaaaababbbbbaaababab
+baabababbaababbbaabbbabbbbabaabb
+aabbabababbaaabbbabbbbabbabaabababbaaaaaaaababbb
+aabaaabababaabbabaabbaab
+abbbbaababbbababaaabbaba
+babaabbaabbaaabbbaaababa
+ababbaabbbaabbbaabbbbbbb
+bbbbbabbbabbbaaabbaababbabbbaabbbaabbaaa
+bbaabbaaaabbabbabbabbaabbbaaabaabbbaabbbbbaaaabbabbbbabb
+aabbaabbabbabbbbaaaaabababbbbabbbbbabbab
+aabbbaabbbbaaabbbaaaababaaaabbbaaabbbbab
+ababbaabbabbbabaaabaababbbbbbaab
+bbbbbbbaaabbabbabaabaaba
+aabaaabaabbbababbabbaaaabbaabaabaaaabbaa
+bbbbbbaaaaabaaabaabbbaabbabbabbabbaabbabaababbba
+abaabbbaabaabaaabbaaabaabababbaaabaaabab
+abbabaaaaabaaaababbbbaaabbbaaaaaabbbabaabbbaabaa
+abaabbbabaaaabbbabbbbaaabbbaaaab
+aabaababbaabaaaabbababbbbbabbbbbbbbbabbbabbbabbbaaaaabababbaabbb
+aababbaababbaaabaaabaaab
+aabbaaababaababbabbbababbaaaaabaaaaaabbababaaaab
+abbbabaabbbabbaabbbbbbbbabaabbbbabbbabbbabbbbaaaaabbbbbabaaaaaabbaaabbbabbbbaaba
+ababbabaabbaababbaaaabbabaaababaabbaabbabaaababaabbbbbba
+baabaabbbbbbbbbbaabababbbaaabbaaaaababaabbabaaab
+babbbaababbbbbaaaabaabbbbaabbabbbbbaaabababaabaaaabbabaa
+abaabaaaaaababbabbaaabbbbababbabbababababbbaabbaaaababbabaaaabbaaaaabbabaabbaabbbbaabbabbbaabbbb
+abababaabababbbbabaaaababbababaaabbbbbbaabbbaaaa
+babbbaabaaabaabbbabaabbb
+abbabaaaaabbaaabbbaaabbbbbbbaaab
+aabbbaababaaaabbaaaababbabaababaabbbbbababaabbbabbbaabaa
+aaaabaaaabaabaaaaaabaaab
+aaabbaaaaabaaaaabbaaaaaa
+bababaaabbbaaaaaabaabbbbaabaaaababbbbabbaabbabbb
+abaabbaaabbbbbabbbaaababbbabbbabaaaaaaba
+aabaaabbbaabbbabbaaababb
+abbabaaabbbaaabbbabbbabb
+aaaabababbababbaaababbaabbbabbbb
+baaaaababbbbbbbabbbaabbb
+baaaaabaabbabaaabbabaaabbabaabaa
+abaaaabaabbabaaaabbbaabb
+abaabbaabaaaabbababaaabaaaaabbab
+babbbaaaabababbaaabbbaababababbb
+abbabbbaabbbbababaabaabbbbaaababbbbaababbaaabbaa
+aabaabbbaabbaaababaabbababbbabbbbbbbbabbbbbaababaaaaabababbbbabbbbabbbabbaaabaaabaaababa
+babbabaabaabbabbbbaabbbabbbbbbab
+abbbbaababaaaababababbbbbabbabbbaaabbaaabbbabaab
+bbbaaaaaabbabaabababbbaaaaabaabbbaaaaabb
+bbbabbaabababbabaabaabbabbaaaaab
+abbbabaabbbaaababbaabbab
+babbaaababbbbbabbbbabbab
+bbaabbbabbbbbbbabbababaabbbaaabbabbaaabaababbbbb
+bbbbbbabaabaaaabaaabbbba
+babbaaababaaaabbaababbabbbaababbbbaabbbbbabbaaba
+aaaababaaaaabaaabbaabbaababaaabaaabbaaaaaabbbaaaaaaaabbbbbbababaabaaabbb
+abbaababaabbaaaabababaaababbabbaaabaaaabaaababbaaabbbbba
+abababbaaabbaaaaabaabaabbbbbabbaaaababba
+bbbbbbbaabababbaaaabaaaa
+babbbabbbaababbaaababbbaaababbbbbabaaaabaaaaaabaaabaaabbabababbbbbbaaabbaababaaababbaababbbbbaaa
+aaabaabbbbababbbaaaaaabbaaabbbaabbbaabab
+abbaaaaaaabababaaaababab
+bbabbbaaaaaaaaaabaaaabbbbaaaababbbbbbaab
+bbabbbbaabbbbaaabbababaabbbbababbbabaaabaaaaabbbabaaababbbbabbbb
+bbababbabbbabbbabbbababb
+aaaaaaabbabbbbaaababbbab
+baababaabababbbaababbbaaabaababa
+ababbaabaaaaababababaabaabbbbaabbabbbbabaaabbababaaaaabbabbbaaabababbbba
+bbbaabbabababbabbaabbbba
+aabaabbaaaaabaaaaabaaaaaaabbbaababbababaabaaaaab
+abbbabaabaabababbbababab
+babaababbabbbbababbbbaaabababbabbbbbabaaaaabaababbbbabbb
+abaabaaaaababbaaaaaababb
+abbabaabaaabaabbbbababab
+aaaabaabbaabbbaaaabbabbaaaabbabb
+bababbbbabaababbaabbbbbb
+babbaaaabbababbbaababbbb
+bbbbbbbbabaabaabbbaaaaba
+babaabbabababbbbaaabbaab
+aabbabbaababbbaabbaaaabb
+babbaaababbbbbaabbbabbbababaaaab
+babbbbabbababbabbbaabbab
+bbbaaaaabababaaababbbbba
+abbababaabbaaabbaababbba
+baaaababaabaaabaabbaabaabbabaabb
+babbaaabbababaaababaabababababbababbbbaabbaabaaaabbbaabb
+babaaabbaabaaabbaabbbabbabbbbbba
+aabbabbabaabaaaabbbaabab
+bababaaaaabbbaaaabbbabaabbbbbbabbaaabbab
+abbaabaaaabbaaabbabbbbbaabbabbbabaabbaba
+abbbbaabbaabaabbbaaaabbaaaabababbaaabbaaaaababbabaaababb
+abbbbaabaaaaaaaaabababaababaaabbabaaabababbabbaa
+aaaabaaaabbbbaaaabaabbab
+baababbbbbbabbbabbbbaaaa
+bbaabbbabaaaababbababbabaaabbaaaabaaabba
+aababaaababaabaaaabaabbbbabbbbbb
+bbabbbbabbabaaaaabaabbbabababbaaabaaaaababbaaaab
+babbaaaaaabaabbabbbbbabbaaaaaaaabbababababaababa
+bbbabbbaabbbbaababbaaabbababbaabaabbababbbabbabaaabbaabababaaaab
+abbaababbbbaaabbbabbbbba
+ababaaabbbabbaabbabaaabbaaabbbba
+bababbabaabbaaaaababaabbbabbabbbbbabbbaaaabababababbbabaaaabbbbaababbaaa
+aababaaababababbabaaabba
+bbaababbabbabaababbbbaababbabaaaabaaaabbaaabbabbabbbaabaaabababbaabbbbbb
+abbbabbbaabbaababbababbbbaabbabbbababaaaabababaababbaaaabaabbaaabbabbbbaababbbbb
+'
+]
+
+{ #category : #data }
+AdventOfCode2020Tests >> dataForDay20 [
+	" self new dataForDay20 lines size / 12 "
+	^ 'Tile 3391:
+#.......##
+#..#.....#
+..#....#.#
+##...##.##
+#.##.#....
+.#.......#
+.#.......#
+#..#..#..#
+.......#.#
+.##.#.####
+
+Tile 2549:
+.#...##...
+##.#......
+....####..
+######..##
+...##..#.#
+......##..
+.##..#...#
+...#....##
+..#....#..
+.#.#..##..
+
+Tile 1109:
+.#.###..#.
+##..#.#...
+#...###..#
+#...#..#.#
+.......###
+#.#....#.#
+.#.#.#.###
+.#.#.#....
+.#....#...
+..###.#...
+
+Tile 3023:
+##.#.#.##.
+...#..####
+.##.#...##
+#.##.....#
+###.##...#
+.......#..
+...##..##.
+##.....#..
+###....#.#
+.#...#.##.
+
+Tile 2833:
+.#...#####
+....#...##
+....##...#
+#...###...
+#...###...
+..#.#..#.#
+##.....#.#
+..#.......
+##..##...#
+###....##.
+
+Tile 2347:
+#...###.##
+#..##.##.#
+.#..#.###.
+....##..#.
+.......#.#
+#........#
+##..#...##
+..#......#
+#...#.....
+#....####.
+
+Tile 2311:
+####..##..
+#......##.
+##..#.....
+#..#..#..#
+###.#..###
+.#...#...#
+....#.....
+##...##..#
+#....##...
+.#...####.
+
+Tile 3137:
+...#....#.
+#..#.##...
+#..#.....#
+...#....#.
+#..###.##.
+..#..#.#.#
+#........#
+#.........
+#.##....#.
+#.#.#.#.#.
+
+Tile 2333:
+#.###..#.#
+.#....#..#
+#....##..#
+##....#.##
+#..##.##..
+.##..#####
+#.....#..#
+#.......#.
+.#..#.###.
+...#....##
+
+Tile 1439:
+..###....#
+##.#...#..
+..##.#...#
+.##....#..
+#...#.....
+#.#.#.....
+.#.#....##
+.......##.
+....#.....
+##.##.#..#
+
+Tile 1999:
+....#.#.#.
+.....#....
+#...###...
+...#..#...
+....##.#..
+#.....#...
+.....#....
+#..#.##...
+##.......#
+#.#....###
+
+Tile 2351:
+#..#.###.#
+##..##..##
+#...#.....
+.......###
+#....#...#
+##....#.#.
+#...#.....
+.#...#...#
+#..#...#.#
+##.#..#..#
+
+Tile 3547:
+...#.#...#
+###...#..#
+.........#
+#.#...#...
+#.#..##..#
+.#.####.#.
+#..#.#.#.#
+.##......#
+#......#..
+.###...###
+
+Tile 3877:
+..##...##.
+..#.....##
+.#..#....#
+##...#...#
+##.#..#..#
+.#..#....#
+..##.#.#.#
+......#.#.
+#.....##..
+####..#.##
+
+Tile 2309:
+.##.#..#..
+....#..#.#
+..#.....##
+.........#
+#..#......
+#........#
+..##.#....
+......#...
+........##
+#.##.###..
+
+Tile 1303:
+#.##.####.
+.......#..
+...####...
+.....#....
+#......#.#
+......#...
+.#.#.....#
+#........#
+#.#..#.#.#
+##.##.####
+
+Tile 3797:
+.#.###..#.
+#...##....
+#.##.##...
+#.##.....#
+........##
+#.#.......
+#...##....
+..........
+.....#..##
+#..##.....
+
+Tile 2161:
+.#....##..
+...#.....#
+#.....#..#
+#..#.#.#.#
+..........
+....#..#.#
+##...#...#
+.#..#....#
+......#...
+#.#..#.#..
+
+Tile 3463:
+##.##..###
+##.#..##..
+.##..#.##.
+..........
+#.#...#..#
+....#...##
+#..#.....#
+#.........
+.......#..
+#.#.#.####
+
+Tile 1657:
+#.##.##.##
+.....#....
+.#.....#.#
+.#......#.
+#...##...#
+##.####...
+#.#...#...
+#..##.....
+#..###....
+###.##...#
+
+Tile 2647:
+##.##..##.
+#..#......
+##....####
+#......#..
+.#.#...#..
+.#..##.#..
+##...##...
+#.##...#..
+..#....#..
+###...###.
+
+Tile 2557:
+.###.#.#..
+#.#...#.#.
+#####....#
+#..#.....#
+..#.....#.
+...#......
+#....#....
+.#..#....#
+........#.
+.#.#.#.##.
+
+Tile 2113:
+###.#.....
+.####.....
+.....#...#
+.#......#.
+........#.
+...#......
+......#.#.
+..........
+..........
+..#.#.####
+
+Tile 2729:
+###...##..
+...#....#.
+#.#.......
+....###.##
+#..#..##..
+..##..####
+##....####
+#...#.#..#
+##...##..#
+###.#.#..#
+
+Tile 2741:
+.####..###
+.#.#.#.#..
+.##..##.##
+#.##...#..
+#..#.#.#..
+#...#....#
+#.........
+##...#....
+..........
+#####.#...
+
+Tile 1901:
+#.#..##..#
+...#.#....
+.##...#...
+##........
+..#.#..#..
+...#.##..#
+..#..###..
+..##......
+.#.#.....#
+#.###.#..#
+
+Tile 2843:
+#...##..##
+.........#
+##.###.#..
+.........#
+#..###....
+..##......
+##......##
+..#..#####
+##....##.#
+##.##...##
+
+Tile 3229:
+#...###.#.
+.......#..
+###...#.#.
+#.......##
+...#.#...#
+#.##...#..
+##.###...#
+..#.......
+....#.....
+#....####.
+
+Tile 1289:
+..#.###.##
+......#.##
+..##...#..
+#.........
+#..##.....
+###....#..
+.........#
+...##..##.
+.#...#....
+.#.###...#
+
+Tile 2953:
+..#..##...
+...#.#..#.
+........#.
+#.#......#
+###..#.##.
+...##.#..#
+#...#..##.
+.......#.#
+.........#
+#.#.#.##.#
+
+Tile 1579:
+..##......
+.....#....
+#..#.##..#
+.#........
+.....#....
+#.......##
+#..#......
+#.........
+...#..#.##
+##....##.#
+
+Tile 3359:
+.##..####.
+.......#.#
+....##...#
+.........#
+..........
+....#....#
+....#....#
+.#.#.#..#.
+...#.#....
+#######...
+
+Tile 1823:
+####..##.#
+.........#
+...##.....
+..#.......
+.#...##...
+#..#......
+..........
+#....#...#
+#...#.#..#
+#.#.##....
+
+Tile 2659:
+##.#.###.#
+#......##.
+..#.#....#
+##...##...
+#.#..#..##
+#...#.....
+...#.#....
+.......#.#
+.#..#..#..
+....###..#
+
+Tile 1097:
+.#.#.#....
+##..#...##
+###.....#.
+.#.....###
+##...##..#
+...#.##...
+.....#..##
+#..#.#....
+.#...#..##
+.#.##..##.
+
+Tile 2341:
+####.#...#
+....#...##
+#.##.....#
+..#..###.#
+...#.#.###
+#...#....#
+.##......#
+#....#....
+##....#.#.
+#..#....#.
+
+Tile 2089:
+#.###..##.
+#..#####..
+....##....
+#.....#.##
+.....###.#
+.#..#.#..#
+....#.#.##
+#.......#.
+###......#
+###..####.
+
+Tile 1583:
+#.#...#...
+#....#.#.#
+.........#
+#.....#...
+...#......
+#........#
+#......#..
+.......#..
+.........#
+####...#.#
+
+Tile 3011:
+##.####...
+.##......#
+...#.....#
+#.......##
+#..#......
+##........
+##..#...#.
+##..#.....
+#...##..#.
+.###.#.#.#
+
+Tile 1481:
+###.#.##..
+..###...##
+....##.#.#
+..#......#
+..#.#.....
+..##......
+#........#
+......#...
+#..#..#..#
+#.#.######
+
+Tile 2927:
+##..##.###
+#.##.#...#
+....#..#.#
+.#....#.##
+#...#.#.##
+#.#.......
+#.........
+......#..#
+.#.#.#...#
+###...#.#.
+
+Tile 2633:
+.##..##.#.
+.#..#.####
+..#..##..#
+..#.#....#
+.........#
+..#.....##
+........#.
+##....#.##
+.......##.
+....#####.
+
+Tile 2371:
+#..#.####.
+....#.#...
+..#...#..#
+......#...
+..#.##.#..
+.#..##.#..
+....#....#
+.#.......#
+#.#.......
+#.##.#.#..
+
+Tile 1733:
+#.########
+.#.##..#.#
+#.#..#....
+..###.##..
+#..##..##.
+.##.#.....
+#...#.#...
+#..##..###
+#........#
+..#....#.#
+
+Tile 3583:
+#.#.#.....
+....#....#
+...#.#....
+....#.....
+#........#
+#.#..##..#
+.........#
+#....#....
+#.....#...
+...#..###.
+
+Tile 1291:
+.##.###.##
+#...#.#.#.
+#.##.#.##.
+....#..#.#
+#.##.###..
+#.##...#.#
+....#.#.#.
+.###.#...#
+.#.#.....#
+##..#..###
+
+Tile 3067:
+#.#...##.#
+#........#
+...##.#.#.
+#.##.....#
+..#.......
+#..#...#.#
+#....#....
+#.#...#...
+..........
+########.#
+
+Tile 1621:
+.#..#.#..#
+#...#..#..
+..#.#.#..#
+##..##...#
+#.#.......
+...#..#..#
+##.#.....#
+..#.#..#..
+...##.##.#
+#....#....
+
+Tile 3719:
+#..###....
+...##..##.
+..###.....
+.....#.###
+##...#..##
+#........#
+.....#...#
+#...#...#.
+#.###.#...
+#..#.#..##
+
+Tile 1217:
+#.##..#.##
+#.....#...
+...#.#....
+.#..#.##..
+...##.#.##
+#.#.#..#..
+..........
+#.......##
+.........#
+######..#.
+
+Tile 2503:
+..##.#.#..
+#....#....
+#.........
+.#...#.##.
+...#.#....
+.........#
+..##......
+.##.....#.
+.#.....#..
+###.##..#.
+
+Tile 2971:
+#...###..#
+#...#.#.##
+#........#
+#.#....#..
+##........
+#.....#..#
+.#........
+.#........
+.#.###..##
+.##...#..#
+
+Tile 2593:
+#..#.####.
+....#...#.
+#.##.#....
+......#.#.
+........##
+#.........
+##.#......
+#...#.#..#
+..##...#..
+...####.#.
+
+Tile 2711:
+##..##...#
+#....#...#
+.........#
+##....#.##
+##......##
+######....
+#...#...##
+.....#....
+....#.#.#.
+....##.#.#
+
+Tile 3929:
+#.#.#..###
+..#.###.#.
+.....#...#
+.....##.##
+..#.#..##.
+#........#
+#.###..###
+..#..#.#..
+.##.....#.
+#.#.#.#.##
+
+Tile 2473:
+###....#..
+..##...##.
+.#...#...#
+.#..#...#.
+##......##
+#.........
+#....#..#.
+##........
+..##......
+..#..#..##
+
+Tile 1103:
+.#######..
+#....#....
+.......#..
+.......#..
+##.#.....#
+.......#.#
+#.....#...
+#......#.#
+#..#..#...
+######..#.
+
+Tile 1907:
+#..##.#..#
+#..##.#..#
+.##.#.#.#.
+##########
+....####..
+##...#....
+..##.#....
+#...#....#
+..#.####..
+.#.##..###
+
+Tile 1553:
+###.#...#.
+#....#.#.#
+..#......#
+....##...#
+......#..#
+###...#.##
+##...#....
+..........
+..#.......
+###.#####.
+
+Tile 1637:
+#####.##.#
+.......#..
+...#.#....
+#......##.
+#.###...##
+..........
+..#.###.#.
+#....##..#
+#..#.....#
+#..##.#...
+
+Tile 2789:
+##..####.#
+..#.......
+#.........
+.......#..
+.#........
+..........
+#....##...
+####.....#
+...##..#.#
+.#.###.#..
+
+Tile 3301:
+#.#....#..
+.#.....###
+##......##
+.#.#......
+#..#...#..
+...#......
+.#.....#.#
+#........#
+#.....#.#.
+.###.#....
+
+Tile 2957:
+#.#.##..#.
+#..#......
+.##...#.#.
+..#.......
+####......
+.....#.#..
+#.#......#
+#...###...
+#..#..##..
+###..#.#..
+
+Tile 2389:
+##.#..#...
+.#.......#
+..#.......
+###....#.#
+.#....#...
+....#.....
+....#..#.#
+#......#.#
+..#.##.##.
+...###.##.
+
+Tile 1087:
+##..##.###
+#...#....#
+.#.##.#.#.
+.#.......#
+#.#..#...#
+.#..##...#
+##.#..#.##
+.#...#.#..
+#........#
+#..#...#..
+
+Tile 2251:
+#..####...
+#..##..#..
+#..#.##...
+.#.#.....#
+.##.#.#...
+#.##.....#
+....##....
+.........#
+...#.....#
+##.#.#..#.
+
+Tile 2969:
+####.##..#
+##........
+...#...#.#
+.......#..
+###.######
+..#..#....
+...###...#
+#......###
+.#........
+#.###...##
+
+Tile 1669:
+.#...#.##.
+#.##...#.#
+#...#.....
+#...##.#.#
+#.....#...
+...#.#.#..
+...#.#....
+..#.#.#..#
+#.#.#.##.#
+#..#.##..#
+
+Tile 2713:
+#...#.#.##
+...##..#.#
+.#..#..###
+..#.#.....
+..#....#.#
+..#...#...
+#..#....##
+##.....#.#
+#....#....
+.##.....##
+
+Tile 3659:
+...#....#.
+#.........
+#..#.#.#.#
+#..#..#.##
+.#.#.#..##
+#....#..##
+..#......#
+..#.....#.
+.##.##.#..
+####..#..#
+
+Tile 1609:
+...#......
+.......#..
+##.....#.#
+#...#..#..
+....#.....
+#.......##
+#...##....
+#..#..##.#
+#####.###.
+..##......
+
+Tile 1979:
+#..#.#####
+.....#.#..
+.#....#.#.
+###.###..#
+..#....#.#
+..#....#..
+#....#.##.
+....#..#..
+....#.....
+.#.#..#.##
+
+Tile 3457:
+##.#.#..#.
+.#......##
+#.##..#..#
+#.#..#....
+..#..#....
+##..#..#..
+.........#
+.......#.#
+.........#
+###.##.#..
+
+Tile 2531:
+#..##...##
+##....#..#
+#.........
+.....####.
+.#.####..#
+##..##.#.#
+#.....#..#
+#.....#..#
+.....#.##.
+#..#..##.#
+
+Tile 2267:
+###..##..#
+..#......#
+.#..#....#
+#..#...#..
+......#..#
+...#......
+##.....#.#
+##.#....##
+.#.....#..
+###.##..#.
+
+Tile 3853:
+##.##.##.#
+.....#..##
+....#..#..
+.#...#....
+.........#
+....#.....
+#...#....#
+#.........
+#........#
+#.#..####.
+
+Tile 3433:
+#...#.#...
+....#.##..
+###..##.##
+##.#...#..
+.#.#.##.#.
+......#..#
+...##..##.
+##....#..#
+..#..##..#
+###...####
+
+Tile 3109:
+###.####.#
+.#.#....##
+.#...#....
+..#...#..#
+.#.#...#..
+#.........
+...#.##.#.
+.......#..
+..#..#....
+#.##.#####
+
+Tile 2399:
+####.##.##
+...#.....#
+..#.#.....
+.#.##.....
+...#.#...#
+..#..#..#.
+...#..#..#
+#....#..#.
+..........
+#....#####
+
+Tile 2141:
+#.#...#...
+#........#
+.#.#.##.#.
+..#...##.#
+..#......#
+.........#
+#...#...#.
+.#.####..#
+..#.....##
+###..#.#.#
+
+Tile 3187:
+.##.##.#.#
+...#.##.##
+##...#...#
+......#..#
+.##.#...##
+..##...#..
+#......#.#
+...#..###.
+#.#....#.#
+.#..##.#.#
+
+Tile 3329:
+.#.##..#..
+.#........
+#..#.....#
+#.###..#.#
+..#.#.....
+.#..###..#
+..#.....##
+#.#..#.###
+##.##..#.#
+##..##.##.
+
+Tile 2693:
+#..#####.#
+.........#
+##.#....##
+#..#.....#
+####.#....
+..####.#.#
+....##...#
+##.#.....#
+#.......#.
+.....#####
+
+Tile 2357:
+.#..##...#
+......#.##
+....#.##..
+#.##.....#
+..#.#...##
+#........#
+#..#......
+#.........
+....#.....
+...##...##
+
+Tile 1381:
+.#.....#.#
+#.....####
+#.........
+.#.###.#..
+##....#...
+..........
+#.#.#.#..#
+.#####.#.#
+#.......##
+#.####....
+
+Tile 3761:
+#....##...
+#......#..
+#...#...##
+.........#
+..........
+.#.##.#.#.
+...#....##
+#...#...#.
+#....#....
+.###..####
+
+Tile 1889:
+..#.#....#
+..#..#....
+.#..#....#
+..........
+..##..#.#.
+..........
+.....#.##.
+#..#......
+#......#..
+.#...#..#.
+
+Tile 3511:
+..##.....#
+.#....#...
+####.....#
+.#...#...#
+#..##.##..
+#.#.....#.
+.#.#......
+#...#.....
+#.#.......
+###.###..#
+
+Tile 1619:
+...###.##.
+#...#.##.#
+###.......
+..#..##.##
+..#.##....
+..###....#
+#......###
+....###.##
+..#....###
+..##.##.##
+
+Tile 1721:
+###....#..
+......#.##
+.#.....#.#
+##.##..###
+.#....#...
+#...#..#.#
+#.#.#....#
+...#..#...
+#.......##
+.######.##
+
+Tile 3539:
+.#.....#.#
+...##...##
+#.#...#...
+..#.#....#
+#..#....##
+#.#..##..#
+##..#..#.#
+.....#.#.#
+.#..#.#.##
+..#...###.
+
+Tile 3847:
+##..###..#
+#..##..#.#
+.......##.
+.#.#.....#
+###...#...
+.##.##...#
+....#.#...
+..#..##..#
+#......#..
+####..###.
+
+Tile 3257:
+.##.#.#...
+###...#.#.
+..........
+..........
+..#...#..#
+.........#
+#.....#..#
+...#....#.
+#..##.#.##
+####...###
+
+Tile 3851:
+#.#.####..
+#.#....#.#
+#.........
+####.#...#
+.###.....#
+##..#..#.#
+.#.###....
+.........#
+####.....#
+.#.#..#.##
+
+Tile 3881:
+....#..#.#
+#......#..
+..........
+#....#....
+#.#.#.#..#
+....#..#..
+.....#..##
+#.#...#.#.
+....#.....
+..#.#..###
+
+Tile 2539:
+#.####.#.#
+...#.###.#
+####...#..
+#..#...###
+......#.#.
+#..#.....#
+#....#..##
+...#...#..
+#.#....#.#
+.##.##.#.#
+
+Tile 1301:
+##.##..#.#
+.......#..
+#..#.#.#.#
+#...#.....
+#####.#...
+...#.#....
+..#....#.#
+...#..#..#
+#...#...##
+.###.###..
+
+Tile 2027:
+##..###.#.
+##..#.....
+#.#..#....
+.##...#...
+..##.....#
+#......#.#
+#.#.....#.
+##..#....#
+..........
+#..##.#...
+
+Tile 3001:
+.#...#...#
+..#.#...#.
+...#.##...
+#.........
+.#...#....
+#.......##
+##....##.#
+##.#....##
+...#.....#
+#...######
+
+Tile 3767:
+#..#.#...#
+##..#....#
+...###...#
+.....#.#..
+........#.
+.#...#....
+#..##....#
+..........
+##..#..#.#
+.#......##
+
+Tile 1433:
+.##.#.##.#
+#...#.....
+......##.#
+##.#....#.
+.#.##...##
+#..#.##..#
+.#.##...##
+#...##.#.#
+...#...#.#
+..#.....#.
+
+Tile 1931:
+##.####.#.
+#.##..#..#
+#....#...#
+#....#....
+...####...
+...#......
+#........#
+####..#...
+...###....
+.#..#.#...
+
+Tile 3491:
+.##..#.#.#
+##...#...#
+#..#......
+#.#.#....#
+........#.
+#.#......#
+##........
+.#.......#
+.##......#
+####.....#
+
+Tile 2683:
+...#....##
+...#.##.#.
+..##.#....
+....##...#
+..#.##..#.
+...##.#.##
+#..#.#...#
+..#..#....
+#...#..#..
+#..#####..
+
+Tile 3323:
+.....#.#.#
+###.......
+....#.#...
+..#......#
+.##..#....
+#.....###.
+.#....##..
+.....#...#
+....#..#.#
+.....###..
+
+Tile 1061:
+#....###..
+#.#.#.#...
+#......#..
+#...##...#
+#........#
+.....#.###
+##....#..#
+....###..#
+###....#..
+..##.##...
+
+Tile 1163:
+####.###.#
+#..#.....#
+#........#
+#...##...#
+.##..#.#..
+..#.#.#...
+.....#.#.#
+##........
+.#....#.#.
+###..#####
+
+Tile 3779:
+.#####.#..
+####.##.#.
+##...##..#
+#.###...#.
+..#.......
+#........#
+...#...#.#
+.#.#......
+#...#.#...
+.#.#..##.#
+
+Tile 1993:
+#..##.#.##
+.#...#...#
+#..###....
+#.##.....#
+#.....##.#
+#...#.#..#
+#.#.#.....
+.#.#.#...#
+....#.#.#.
+##......#.
+
+Tile 1213:
+#..##..#..
+..##..#..#
+#.........
+.##.....#.
+#.........
+........##
+........#.
+..#.###..#
+##.......#
+..##...#.#
+
+Tile 3373:
+#.##..#.##
+#.........
+.....#....
+#...#.....
+#...##...#
+..#..#....
+#.........
+..........
+#...##..#.
+..##.###.#
+
+Tile 2017:
+#...#.##.#
+#...##....
+........##
+...#...#.#
+..........
+##...##..#
+.....#...#
+#....#.#.#
+#........#
+#.##...#..
+
+Tile 1367:
+..###.####
+#..#.#..#.
+#...##..#.
+.#.....#.#
+##......##
+.#.#.....#
+.....#....
+........##
+#...##...#
+###.#...##
+
+Tile 2417:
+.#.#.#.#..
+#.##..#.##
+#.#......#
+###.......
+#..#.....#
+...#.....#
+..#.......
+#.#.#....#
+.#...#....
+#..##.....
+
+Tile 1871:
+##..#.##.#
+.#.#..####
+..#...###.
+.##.......
+....##..##
+..#....#.#
+###.......
+.#....#.##
+.#.#...#.#
+#.###..#..
+
+Tile 1601:
+#####.....
+.....#....
+......#..#
+.#..######
+#..#.##..#
+....#.#...
+#.#.......
+#.#..##..#
+#..##.#.#.
+..#..##.##
+
+Tile 1471:
+.#######..
+..#..#...#
+.##..#...#
+##..#.#..#
+......#..#
+.#...#....
+#........#
+..#......#
+.....##..#
+###.#....#
+
+Tile 2521:
+###.....##
+###.##.##.
+......##.#
+#...#.#...
+........##
+##.####...
+...###....
+#..#.#...#
+#..####...
+#.#.#....#
+
+Tile 1279:
+##..#..#.#
+.#...#.#.#
+#.......#.
+#.#.#..#..
+#.#......#
+#......###
+#..#..#..#
+#.#.#...#.
+#...#....#
+..#......#
+
+Tile 1069:
+#.#.#...##
+......#.##
+#....#.##.
+......#..#
+##.#.#...#
+#.#.#.#.##
+#.......#.
+##..#....#
+......#...
+.##..#..##
+
+Tile 2143:
+#.#...#.#.
+#.........
+..#...#...
+.#..##....
+#......#.#
+.....##..#
+#.#.....##
+#.........
+#....#....
+##....#.#.
+
+Tile 3517:
+####.#...#
+#.#..#...#
+#......#.#
+#..#......
+##....#..#
+#......#..
+..#...#...
+#.....#...
+....#.###.
+##...#.#..
+
+Tile 2543:
+.#######.#
+.....#....
+#.#.#....#
+........#.
+##...#....
+..#.....##
+..#.#.##.#
+........##
+#.......#.
+#.####.###
+
+Tile 1567:
+...#.##...
+...#...###
+.....#....
+....#....#
+#.....#.#.
+.###....#.
+#.##..###.
+........##
+........#.
+#####.#.##
+
+Tile 1459:
+..#...###.
+##..##...#
+.##.......
+..###.#...
+##.......#
+....#..##.
+##....#.##
+......#...
+....#.....
+.#.#.#.###
+
+Tile 1153:
+.##...###.
+#.#..#.#..
+..........
+..........
+...#.#..#.
+..#......#
+#.#..##...
+..##....#.
+#.........
+#.#....###
+
+Tile 1811:
+###.#..#.#
+#..##....#
+#.##..#...
+...#...###
+......#...
+..#....##.
+##.......#
+..#......#
+.....#...#
+.....#....
+
+Tile 1667:
+.#.#.##.##
+.....#.#.#
+....##....
+....#....#
+.###..#..#
+.#.####.##
+#..##.....
+......##.#
+#.#...##..
+#####..###
+
+Tile 2677:
+.###...#.#
+#..###...#
+#....###..
+..........
+##.......#
+##.#....#.
+###..##.#.
+#.#.......
+.#......#.
+##.#..#...
+
+Tile 2707:
+#..#.#.##.
+#.....####
+....#...#.
+##..#.....
+##........
+..#...#...
+....#.....
+#....#.#.#
+..#..#.#..
+####...#..
+
+Tile 1699:
+.###....##
+..#..#...#
+.###......
+.....#...#
+#.#.....##
+#.##..#...
+.#.......#
+#......#.#
+###.....##
+.##.......
+
+Tile 3919:
+..#.#..#.#
+#.#...#..#
+##.#..#.#.
+.#..#..#..
+#.#.#.#.#.
+#...##...#
+#...##....
+#...#.#...
+...#...###
+##.#.#..##
+
+Tile 1019:
+#..#..#.##
+#....#..##
+#......##.
+#.#....#..
+##....#...
+#....##..#
+....#.....
+.#..#.#...
+......##..
+...#...#..
+
+Tile 3319:
+..#...#.#.
+.##.......
+...#.#...#
+........#.
+#.....##..
+...##....#
+..##...##.
+.....#..##
+..###.....
+#...####..
+
+Tile 3041:
+##..#####.
+......#..#
+..#..##..#
+..........
+#.....#.##
+#......#..
+.....#..#.
+..##.....#
+.#.......#
+........##
+
+Tile 3313:
+.##.#..###
+#.#..###..
+#....#.#..
+##........
+...#.....#
+#.........
+.#.....#..
+#.....#...
+#.#.#...#.
+#.....##..
+
+Tile 3541:
+#.#.......
+.##......#
+#.........
+##.......#
+.#......##
+..#..#....
+....#.#.##
+.#.......#
+##.......#
+#.#..##..#
+
+Tile 1319:
+#.#...#..#
+#......##.
+..#.#.####
+#.........
+#..#.....#
+..#...##.#
+#...#.##.#
+#..#....##
+....##....
+.#.#.#.###
+
+Tile 1499:
+####...#..
+#...#....#
+.....#...#
+.......#..
+#.###....#
+.......###
+.......##.
+.......#.#
+..#.#...#.
+......#.#.
+
+Tile 2239:
+..#....##.
+.####....#
+...#.....#
+......#...
+.....#..#.
+#..#.....#
+#.#.####..
+###.##....
+.........#
+...#...#..
+
+Tile 3769:
+####.####.
+#....#.#.#
+.##.......
+###.....##
+##.#...#.#
+....#.#..#
+..........
+#.#.#.....
+##.......#
+.#####.###
+
+Tile 1187:
+#..#.#....
+#.......#.
+...#....##
+#..##....#
+#.....#.##
+...##.####
+#....#....
+.....#.#..
+#.##.#...#
+#..#.##.##
+
+Tile 1913:
+#.##.#.##.
+##.#...#.#
+#.#...#...
+##.#.....#
+#.##......
+#.###....#
+..#..#.##.
+#.........
+#.#......#
+...#.###.#
+
+Tile 1753:
+..#..#....
+.......#.#
+...#.#.#.#
+#.#....#..
+#......#.#
+##...#....
+#.#.....##
+#..#...##.
+.##.#.#..#
+##.###.##.
+
+'
+]
+
+{ #category : #data }
+AdventOfCode2020Tests >> dataForDay21 [
+	^ 'mxc ssdszsn phc llj nhnd fqqcnm njrcfg mrczqmj zfnttf tqkfx zvq rftbr jgbk kmlkx tzdks czvphx qpbl fzlrf zmsdzh qfslcb psqc rfx vnjxs lkgln sqhvzg qzjrtl hfzqf qhtvsr zdthsvl cgflg nggbtk mxq rdkrtr djdhrn nkzqj lcrs mhrlx hpbnj blvfz djhj ssrgt lpvfv fslqkg rzcps njdb jbtlfv cncpbssj lsgqf hbdv gbhjv drtdz flndv gpjr xqgb xvjk zjbgp rjc bfnnnrn gcptp prksl xdcp pdt xtgjslz fgptl kdm njqrhcc nqvnn lxldx spnd nlqhlsn tcclbr gpqgkt jfrlp hddd bmqzgvr rfxgl fgsr hjvzcp mxzb hqd (contains eggs, fish, peanuts)
+zcphr pcslhrg strpjp hbbgk nqvnn rtq jqzklv fnlk mhrlx fgsr bvlb gpqgkt fqqcnm dhsssf pdhlzg dchvb njdb rms zppxp pdt nfgr th jbz tktj rtpff xvjk fqtc ldrgj jbtlfv hzmk tqkfx nppxr qzjrtl nlqhlsn qfslcb xbvrx jhv ssrgt xqgb nbgv kmlkx chgjqc nthsf vhjgg mcl fzlrf lzvh pmhhqrk hjzkg lpvfv jgbk xsk blvfz thtlt nfck lftqn mxq flndv lsgqf njqrhcc mrczqmj nnskqnmn rjc zfnttf sqhvzg rfxgl zmsdzh rxd zbxj phc rtmfg bfnnnrn kdm dfcgd (contains peanuts)
+vhjpjdr nxrgp pdj njdb fgsr zmsdzh fctmvrs dfcgd nnskqnmn cvbc rxd th fgptl fqqcnm xqgb nkzqj dkg phc qpbl dgxnc fnlk llj tktj nlqhlsn bkzbrm lzvh rfgf fgcd nppxr vxmrk mhrlx pcslhrg czvphx hfzqf dxrsgs jbz dxdrk chgjqc tqkfx nfgr snzxr frxmq hjzkg mgv lsgqf jhbnm rjc xtgjslz sxsxm gvdstsc pdt lpvfv zbxj (contains wheat, dairy)
+xdcp njrcfg blvfz kdbxxzv tcclbr jhbnm rlgr njqrhcc nggbtk rntk phc zmsdzh lxldx qfslcb psqc mzrx ggrc hqd mrczqmj jp mxq sqhvzg bggmsj mcl gcptp jgbk tzdks hbbgk llj smdlg tqkfx pdt jqgm jhv vnjxs gcpks cqqcd hrnvd rjc rfgf jlrt bvlb njdb rdkrtr dxrsgs czvphx flndv nppxr gvdstsc nlqhlsn hdtr gpqgkt fgcd lzvh bvcxfp dchvb spnd jsh gbhjv vhjgg bjcvpc prbk rng zvq nthsf kjjst pdj zdthsvl pdhlzg lsgqf mgv vbkb ssrgt jxvx (contains nuts, dairy)
+jqgm prksl psqc lftqn jlrt jqzklv fppgp ldrgj cgflg xsk gpqgkt rjc sfkcp zmsdzh njqrhcc nppxr tcclbr snzxr hbdv npftghk phc hbmvpmt bjcvpc czmml bkzbrm ggrc pdt blvfz spnd smdlg mbmtz gcptp hpbnj jbz lsgqf czkfv gqnxlr nhnd chgjqc rzcps jhv fnlk gcpks nlqhlsn fslqkg rsr hjvzcp cvbc rdkrtr zdthsvl nxrgp hjzkg vbkb nfgr fgcd tktj czvphx qhtvsr hcjkd qfslcb hqd fqqcnm nhzthvn sxsxm (contains fish, sesame, soy)
+zmsdzh dxrsgs qrpzt tzdks bggmsj chgjqc cgflg sxsxm zppxp jbtlfv bvcxfp pdj hbmvpmt fzlrf lxldx llj dgxnc hfzqf hqzcncv gbhjv spnd phc hjzkg dhsssf fqtc xtgjslz nfck thtlt tcclbr xdcp djdhrn zjbgp nhnd kdm ksrjn mxq rng pdt dxdrk rtpff sqhvzg ldrgj kjjst rjc jp lsgqf flndv ggrc njqrhcc gpqgkt mrczqmj mxc rftbr psqc lzvh nmps (contains soy)
+jfrlp hqd mxq fnlk cncpbssj nnskqnmn rzcps hbmvpmt pdt zmsdzh pfrqf zfnttf zjbgp dchvb jp mzbgp phc qpbl qdkk nqvnn rsr xbvrx sfkcp cqqcd cgflg dhsssf rlgr vnbfvkp hrnvd lsgqf ldrgj nxrgp qzjrtl czmml nthsf fqqcnm kmlkx lpm xvjk nbgv rfx fctmvrs qjhq njdb pdhlzg xsk rbjmdn tzdks spnd chgjqc bvlb jqzklv lzvh jxvx rxd kjjst jvhsj vxmrk (contains dairy, peanuts)
+njqrhcc mxc mgv phc fzlrf spnd jvhsj kmlkx cldgd fgsr vnjxs ksrjn fqtc qjhq nfgr bmqzgvr pdhlzg frxmq gcptp rdjdq vbkb fgptl npftghk dxrsgs fgcd qdkk qzjrtl lpvfv hfzqf fqqcnm lzvh hpbnj hzmk jqzklv ktnlk tktj vhjpjdr llj fppgp zmsdzh hjzkg jbz cqqcd rtq hbdv njrcfg fslqkg jfrlp smdlg dhsssf qhtvsr rjc lsgqf jhv rftbr xgpdnz (contains wheat, dairy, eggs)
+zmsdzh sjpzc tkhzz kdbxxzv tqkfx fslqkg rtpff nbgv prksl nxrgp pdt zfnttf qdkk rjc vnbfvkp nppxr fppgp spnd bkzbrm rftbr mzbgp llj nfgr xtgjslz lpvfv zjbgp fctmvrs zgvtn xfn nvmm rntk jhbnm frxmq strpjp cqqcd phc dfcgd nggbtk kdm sxsxm gbhjv cldgd qjhq th jlrt rdjdq mzrx hqd jsh vhjgg nlqhlsn vxmrk zcphr lzvh mcl dhsssf bggmsj kjjst fqqcnm (contains nuts, dairy)
+zbxj jlrt lxldx jqgm zfnttf rdkrtr smdlg mcl fctmvrs vhjgg vbkb fqtc nlqhlsn czmml bxqpgx hpbnj fzlrf spnd pdj flndv phc pdt rzcps mzbgp gcpks ldrgj rtmfg zjbgp lzvh hjvzcp rfxgl czkfv gpqgkt bkzbrm jhbnm dxrsgs xdcp hbdv xvjk lpm lkgln gqnxlr kmlkx nfgr jbtlfv fgsr prksl jfrlp nthsf drtdz dfcgd dgxnc dhsssf rjc tkhzz tktj xgpdnz zmsdzh nhzthvn fslqkg bmqzgvr hrnvd lsgqf bjcvpc mbmtz mxc nbgv th bggmsj nqvnn nnskqnmn mxq rlgr rtpff kjjst pfrqf (contains nuts, soy)
+tktj jbz rbjmdn zcphr fqqcnm djdhrn smdlg nkzqj qdkk vnbfvkp rtmfg fnlk jqgm tkhzz rdkrtr hpbnj nhzthvn rjc czkfv lftqn cldgd fgsr rfxgl lkgln bvpxc lsgqf kdm blvfz spnd nlqhlsn xvjk nmps lzvh nvmm snzxr psqc vnjxs sfkcp pdt rfgf gcptp zdthsvl mrczqmj hqzcncv pcslhrg djhj hqd bggmsj nfck hdtr bxqpgx jsh rtpff jqzklv qlkfvk phc jfrlp strpjp (contains dairy, wheat, peanuts)
+hbmvpmt psqc pfrqf gvdstsc chgjqc cgflg pdhlzg gcptp nmps tktj frxmq mzbgp pdt mcl fppgp jqzklv mhrlx ssrgt tcclbr rzcps nhzthvn rjc rfxgl fqqcnm gqnxlr gpqgkt fgsr hqzcncv spnd nbgv nhnd mxc xtgjslz nfgr vbkb zjbgp jgbk nppxr rfgf dxrsgs nqvnn hfzqf gcpks jlrt rdkrtr rntk rlgr rxd kjjst flndv lxldx phc jqgm zmsdzh hrnvd zdthsvl drtdz rfx qpbl lzvh xbvrx gpjr hbdv tzdks blvfz smdlg gbhjv pmhhqrk nnskqnmn rtq prksl qfslcb ggrc nthsf bggmsj zppxp (contains eggs, fish)
+nthsf pmhhqrk gpjr zmsdzh jhv zfnttf vhjpjdr rtmfg cvbc nvmm vbkb bmqzgvr lftqn prksl rjc bfnnnrn qzjrtl pdj hrnvd jbtlfv mgv kdm xtgjslz nkzqj mhrlx fgcd kmlkx qrpzt xfn rntk fppgp fqqcnm dgxnc nggbtk bjcvpc nppxr qfslcb fctmvrs pdt njqrhcc rdkrtr ldrgj rfxgl jgbk spnd phc rfx lkgln rtq xdcp jhbnm prbk jqhn hfzqf mxc rms mxzb rtpff tqkfx fslqkg jbz hbmvpmt hbdv rfgf lzvh (contains fish)
+gcpks mrczqmj rtq gpjr npftghk hbbgk lxldx xtgjslz njrcfg hjvzcp kdm jp sfkcp bvcxfp xdcp nqvnn tkhzz czvphx ssdszsn xvjk zmsdzh chgjqc rdkrtr hqd qrpzt mbmtz frxmq pdt zppxp nmps hdtr dfcgd nbgv gbhjv th rsr lsgqf fqqcnm rjc cldgd flndv bjcvpc zfnttf zgvtn rms fslqkg phc rtpff hjzkg rlgr dxrsgs nvmm zcphr rxd nxrgp zdthsvl jhbnm jqhn qfslcb lftqn psqc czkfv pcslhrg fqtc xsk nnskqnmn mxq qdkk spnd lcrs ksrjn kmlkx ldrgj nfgr nlqhlsn cvbc djhj thtlt bmqzgvr lpvfv qpbl xqgb (contains dairy, soy, peanuts)
+prbk thtlt fqqcnm rjc tkhzz hcjkd blvfz xvjk njrcfg nnskqnmn xfn xdcp czkxlg hzmk bvlb ssdszsn xsk mbmtz spnd zjbgp lzvh lsgqf rtq kjjst xgpdnz bxqpgx czmml gpjr ggrc ktnlk jbtlfv pmhhqrk nkzqj phc zbxj fzlrf dgxnc lcrs xbvrx rdkrtr rfxgl hqd gbhjv vbkb pdt nfck qdkk jlrt (contains soy, nuts)
+qhtvsr mxc prksl jhv cvbc dkg drtdz gpqgkt jbtlfv rdkrtr qfslcb phc ssdszsn dchvb fppgp djdhrn tktj tkhzz jbz njqrhcc dhsssf lftqn mrczqmj jgbk lcrs hrnvd fqqcnm jqzklv rfx hjvzcp czkxlg pcslhrg kdbxxzv zvq spnd qzjrtl lzvh vxmrk hbmvpmt bxqpgx zmsdzh qdkk pfrqf jsh strpjp th njdb pdt sjpzc bfnnnrn lxldx nbgv hbbgk rjc (contains fish)
+sfkcp njqrhcc xvjk lpm rfgf fctmvrs spnd djdhrn nhnd zmsdzh njrcfg gvdstsc zjbgp nthsf prbk njdb jqzklv hdtr dxrsgs phc thtlt nppxr mxc fqqcnm gbhjv lcrs mzrx pdhlzg frxmq hbmvpmt nggbtk rdkrtr zdthsvl smdlg nfck nhzthvn pdt dkg xqgb bmqzgvr sjpzc qfslcb hjzkg llj nqvnn rjc lzvh rtq kmlkx hzmk rfx xbvrx fgptl (contains nuts, fish, peanuts)
+xgpdnz hqzcncv tkhzz lpvfv hpbnj fgsr zbxj rjc rms rntk ssdszsn tktj bvlb snzxr hrnvd xbvrx rxd rfxgl spnd mrczqmj gcpks cgflg lzvh zjbgp hzmk rng lpm rdjdq hdtr fqqcnm zmsdzh fctmvrs qzjrtl gbhjv nvmm zdthsvl blvfz xvjk lsgqf jvhsj cvbc phc jqgm jqzklv gpjr nbgv gqnxlr xfn zcphr (contains fish, eggs, sesame)
+pmhhqrk vhjpjdr rjc lcrs xvjk lpm dxdrk rtq vhjgg gbhjv lzvh vbkb pdt njdb fgcd bxqpgx npftghk ktnlk sqhvzg rlgr bvpxc ssrgt jbtlfv gpjr hfzqf fgsr xqgb bggmsj nmps lxldx djhj nppxr jhbnm pcslhrg mgv jgbk nlqhlsn fqtc qrpzt jfrlp mzbgp fnlk nvmm cgflg ggrc kdm zppxp nnskqnmn jqgm fctmvrs hrnvd vnbfvkp rtmfg nxrgp phc ssdszsn xbvrx rzcps rftbr ldrgj hdtr mrczqmj rtpff lkgln zgvtn hbdv czvphx spnd qpbl zvq zmsdzh rbjmdn tqkfx rdjdq tkhzz dchvb rfxgl fqqcnm (contains soy, nuts, eggs)
+bvpxc chgjqc bggmsj rfgf qpbl fgcd bmqzgvr frxmq tktj lsgqf mxzb mzbgp bxqpgx gvdstsc rzcps hbbgk drtdz vhjgg fqqcnm rntk mbmtz spnd vxmrk thtlt nhzthvn mgv jp cncpbssj sqhvzg lftqn nmps lpm nggbtk hdtr xvjk pdt kdbxxzv qlkfvk zmsdzh fzlrf cldgd jqhn ktnlk npftghk prbk qhtvsr smdlg hqzcncv gqnxlr nthsf nvmm zvq nnskqnmn mhrlx rtq phc xtgjslz qrpzt gcptp rfx mxq hjvzcp rjc lkgln zgvtn xqgb (contains nuts)
+mcl xvjk xsk sjpzc rsr zmsdzh zjbgp drtdz zcphr zvq jhv qfslcb fzlrf lcrs tqkfx rfgf prbk xqgb rjc spnd dchvb tcclbr strpjp flndv njqrhcc hfzqf pdt dkg lzvh gcpks hjvzcp lsgqf fgptl mzbgp sxsxm nvmm phc rng frxmq dxrsgs nnskqnmn nhnd bvcxfp (contains nuts, eggs)
+rtq jfrlp dchvb fppgp jp xtgjslz sfkcp zppxp rzcps spnd mbmtz llj rbjmdn rsr nbgv lsgqf jqzklv mxc lxldx hdtr njrcfg phc gbhjv nthsf dkg nhnd lcrs fqqcnm hcjkd fgptl dfcgd dxdrk pdt nlqhlsn zmsdzh hbbgk pmhhqrk rjc pdhlzg dgxnc zfnttf jbtlfv nmps bmqzgvr fgcd jhbnm flndv hzmk chgjqc dhsssf nnskqnmn cldgd (contains nuts, peanuts)
+sjpzc cvbc zcphr gpqgkt lsgqf ggrc rtmfg hrnvd cldgd ssdszsn tktj chgjqc zjbgp spnd njqrhcc hjvzcp mkxbf dgxnc ldrgj dxdrk nqvnn mzbgp ssrgt mbmtz nfgr jp pdhlzg hbdv gcpks xtgjslz sqhvzg ksrjn mcl zmsdzh fppgp dxrsgs blvfz lftqn jhv czvphx jlrt lpm bjcvpc jvhsj pdt zppxp bvlb zvq djdhrn nggbtk phc qfslcb tqkfx nmps nppxr jxvx rzcps vhjpjdr bvpxc snzxr lzvh fqqcnm qrpzt sxsxm (contains wheat, fish)
+strpjp dxrsgs qlkfvk cgflg sxsxm hpbnj lsgqf mgv prbk prksl zmsdzh rtpff xfn czkfv dgxnc nfck ldrgj cncpbssj pfrqf zppxp bggmsj qzjrtl xvjk kjjst mbmtz sjpzc lftqn lkgln mxc rtmfg rdjdq hqzcncv jqgm psqc nxrgp hzmk rntk rms th kdm nthsf hjzkg dkg sqhvzg zvq gpqgkt qrpzt pdt zcphr rfxgl mrczqmj jbtlfv ssdszsn blvfz bvlb dfcgd nmps thtlt fqqcnm jp zfnttf fnlk frxmq rlgr hbbgk vbkb xgpdnz vhjgg czvphx vxmrk fgptl cldgd lpvfv lcrs pdhlzg hddd spnd phc pcslhrg rjc (contains eggs, peanuts, dairy)
+zfnttf spnd rfx vbkb sfkcp tkhzz zmsdzh rfxgl dgxnc lsgqf sqhvzg phc bvpxc rlgr dxrsgs pdt vnbfvkp lftqn rfgf hcjkd fgsr nkzqj xgpdnz pmhhqrk tqkfx dfcgd cncpbssj rdkrtr qlkfvk blvfz xsk nfgr rsr czmml rtq bvcxfp kmlkx zdthsvl hzmk rjc xvjk gcpks tktj xfn prbk kdbxxzv fqqcnm mxc hjvzcp jp (contains peanuts)
+nfck nnskqnmn rtpff sqhvzg lsgqf dfcgd hcjkd cvbc fzlrf bvpxc rftbr dgxnc jlrt cncpbssj cgflg fslqkg pdt nbgv xdcp nqvnn rsr jxvx hqzcncv mrczqmj gpjr fqqcnm zmsdzh cldgd qfslcb czkfv bfnnnrn prbk fqtc zjbgp qhtvsr rdkrtr bvcxfp tkhzz rfx smdlg nggbtk mzbgp qpbl nvmm th snzxr gbhjv rng vxmrk mbmtz mhrlx blvfz rzcps qrpzt nhnd lxldx gcptp zgvtn njdb kjjst mcl npftghk rjc jqhn cqqcd prksl lzvh phc vnbfvkp psqc jgbk zvq hfzqf (contains nuts, fish)
+hcjkd rzcps fnlk fzlrf dgxnc cqqcd hbdv jvhsj lsgqf rxd bvcxfp lpvfv qpbl mrczqmj jqgm mxq jqhn hfzqf zmsdzh rjc lzvh nfgr vhjgg rntk rbjmdn ssdszsn tktj pdhlzg sqhvzg tqkfx czkxlg rfxgl gpqgkt njdb dkg strpjp zdthsvl nbgv lkgln vnbfvkp rfgf pcslhrg fppgp bmqzgvr hqzcncv rng dfcgd xbvrx qdkk hzmk vhjpjdr qlkfvk rms gqnxlr hdtr jlrt kdm sjpzc qhtvsr bvlb nppxr pdt vxmrk fqqcnm jxvx qrpzt thtlt zgvtn phc ksrjn fslqkg (contains soy, peanuts, fish)
+rsr hfzqf fctmvrs zjbgp qdkk qjhq rfx hqzcncv nfgr nhzthvn xbvrx jhbnm pdt rng rdjdq pdj nnskqnmn jhv bfnnnrn kdm cldgd nppxr nthsf lzvh czvphx vhjgg hdtr mbmtz mgv jbz mhrlx fppgp rlgr ssrgt jvhsj tktj fqqcnm zbxj nvmm qzjrtl czmml ggrc zmsdzh tkhzz dxdrk jp mrczqmj phc kmlkx jqzklv nhnd rftbr thtlt pcslhrg hbmvpmt jsh nmps nggbtk rtq nqvnn lkgln snzxr xdcp fqtc lsgqf spnd mxzb llj gbhjv (contains fish)
+spnd rng lsgqf nkzqj gbhjv mhrlx mcl hzmk sfkcp bfnnnrn qpbl dkg dxdrk nmps kdm djdhrn xbvrx rlgr tcclbr drtdz fqqcnm dhsssf gcptp kdbxxzv zcphr vnjxs mrczqmj rms kjjst bvlb fgsr bkzbrm jhv gpqgkt ssdszsn qjhq th zmsdzh kmlkx rjc hqzcncv rxd mxc jhbnm nggbtk bjcvpc njrcfg lftqn jbz jqhn jbtlfv hbmvpmt rsr nqvnn pdhlzg rzcps hdtr nnskqnmn rntk ssrgt qrpzt llj thtlt mbmtz mxzb pdt hfzqf nxrgp zdthsvl lxldx lzvh (contains peanuts)
+rfgf hddd rng ssrgt tzdks zjbgp blvfz spnd lzvh ldrgj fqqcnm fnlk bvcxfp gcptp dkg bfnnnrn zfnttf kdbxxzv gpjr rntk jsh nxrgp njdb xtgjslz dhsssf dxdrk lpm nnskqnmn lcrs mzrx nvmm jp prksl rzcps xgpdnz czmml rbjmdn mxq qhtvsr dgxnc bxqpgx mbmtz nmps bmqzgvr dfcgd pdt xbvrx njrcfg rfx fppgp fgptl fzlrf qrpzt zmsdzh cncpbssj tkhzz phc mkxbf rjc njqrhcc cqqcd tqkfx mxc nhzthvn hzmk pdj (contains fish)
+rms qrpzt hbbgk sxsxm dchvb jqhn gcptp xqgb psqc fctmvrs nlqhlsn tktj rntk qfslcb xdcp rfxgl fqqcnm jlrt zgvtn fgcd bvlb cvbc xbvrx rdkrtr rlgr prbk zmsdzh ssrgt phc tcclbr lpvfv djhj rsr rfx blvfz lzvh gpqgkt hpbnj bfnnnrn dxdrk nmps cncpbssj hjzkg hrnvd hbdv dgxnc hdtr rjc rdjdq jxvx qpbl zvq rtmfg jhbnm vhjpjdr nvmm lsgqf czkxlg pdt prksl xgpdnz rbjmdn gcpks fgsr zjbgp frxmq (contains soy, fish, peanuts)
+drtdz nbgv hcjkd mxq sqhvzg xfn nfck phc gcptp hdtr nnskqnmn tqkfx rfxgl jqhn lpvfv blvfz czkxlg djhj lsgqf bggmsj flndv kmlkx mxzb czmml vnjxs spnd dchvb lzvh fzlrf bkzbrm xbvrx prbk ksrjn rxd fqqcnm xgpdnz pdt jfrlp bvpxc fgptl ktnlk njdb zmsdzh (contains nuts, wheat, fish)
+vxmrk fqqcnm rlgr prbk fgsr tktj gqnxlr ssrgt phc rng gcpks mzrx dxdrk njqrhcc czmml cgflg qjhq vnjxs prksl ktnlk tcclbr qhtvsr sjpzc bggmsj nhzthvn zmsdzh ggrc jp rfgf rtpff zcphr lsgqf spnd blvfz rjc tkhzz sxsxm xfn pdt xqgb mrczqmj zdthsvl jhbnm bvcxfp ssdszsn djhj npftghk (contains nuts, eggs, sesame)
+sfkcp bvpxc rfgf bjcvpc bggmsj jbz zppxp gpqgkt mgv lzvh qjhq hbbgk mrczqmj zmsdzh rlgr cvbc qzjrtl rbjmdn mxc czmml fqqcnm hfzqf jfrlp nhzthvn fctmvrs lftqn tcclbr djdhrn rjc cgflg spnd sjpzc phc pmhhqrk fslqkg flndv hzmk nvmm jp prksl dkg gcptp pdt (contains fish)
+dchvb nppxr njdb fqqcnm hbbgk strpjp bvcxfp nhnd rjc hpbnj tkhzz jqzklv spnd vbkb jqgm phc pdt bxqpgx kdbxxzv zmsdzh xgpdnz rfxgl kdm drtdz nhzthvn ldrgj rdkrtr thtlt cvbc mhrlx bggmsj hjvzcp sjpzc nbgv gcptp hqd lcrs hddd djhj ssdszsn tqkfx xtgjslz mzbgp rdjdq nnskqnmn hqzcncv hjzkg jfrlp mxq nmps pmhhqrk pdj th fgcd psqc lsgqf gcpks xfn fgptl nfck mkxbf mbmtz rxd blvfz ggrc zppxp mcl ksrjn zbxj nkzqj hbdv lpm dxdrk zcphr qhtvsr pcslhrg tktj (contains sesame)
+lzvh psqc rjc nhzthvn tqkfx lcrs pfrqf lkgln spnd nhnd pmhhqrk lxldx hqd dchvb zvq vnbfvkp mcl rsr rdkrtr hpbnj rfgf fzlrf ssrgt phc djdhrn fppgp rftbr xqgb hbdv vbkb tktj jqgm sfkcp pdt bggmsj bmqzgvr zfnttf jbtlfv nxrgp flndv sxsxm lsgqf zbxj dfcgd nmps mxc bvpxc rbjmdn gbhjv dxrsgs sjpzc jp fgcd zmsdzh jhbnm vxmrk bjcvpc zcphr gqnxlr njdb nvmm jqzklv kdbxxzv jsh xtgjslz gcpks rntk qpbl djhj lftqn ldrgj xfn hdtr tzdks tcclbr gcptp nnskqnmn (contains eggs, soy)
+gpqgkt lftqn frxmq dchvb hbdv gvdstsc djdhrn ssrgt drtdz rjc gpjr jvhsj rfxgl hqd spnd rtpff mzrx qfslcb cgflg jqhn strpjp zcphr xtgjslz lsgqf pcslhrg smdlg czmml nqvnn fqtc qpbl dkg phc xfn fgsr fppgp dgxnc cqqcd qzjrtl ggrc lkgln ksrjn nvmm qdkk rxd jlrt jhbnm nhnd lpm hjvzcp bfnnnrn pmhhqrk rdjdq hcjkd czvphx xbvrx zgvtn dxrsgs fqqcnm zmsdzh njqrhcc lzvh rzcps fzlrf (contains sesame, soy)
+jgbk gvdstsc spnd rtmfg psqc njdb drtdz thtlt dxrsgs cldgd hjvzcp nggbtk dfcgd nppxr mbmtz gcpks rdjdq lzvh czvphx rjc vnbfvkp mhrlx frxmq bfnnnrn kmlkx qpbl lsgqf ldrgj qrpzt jp bvpxc phc zmsdzh jbtlfv nhzthvn rsr jxvx th rzcps kdbxxzv xgpdnz nqvnn rdkrtr pmhhqrk pdt prbk rbjmdn fgptl gpjr zbxj czmml tqkfx xdcp njqrhcc cncpbssj chgjqc fgcd (contains nuts, dairy, eggs)
+'
+]
+
+{ #category : #data }
+AdventOfCode2020Tests >> dataForDay22 [
+	^ 'Player 1:
+40
+28
+39
+7
+6
+16
+1
+27
+38
+8
+15
+3
+26
+9
+30
+5
+50
+17
+20
+45
+34
+10
+21
+14
+43
+
+Player 2:
+4
+49
+35
+11
+32
+12
+48
+23
+47
+22
+46
+13
+18
+41
+24
+36
+37
+44
+19
+42
+33
+25
+2
+29
+31
+'
+]
+
+{ #category : #data }
+AdventOfCode2020Tests >> dataForDay24 [
+	^ 'seeseesweenwseseseeneneseseseseseswse
+nwseswswswnwnwsesweswswwsewwneswswswnw
+wwnwewswwwnwwwwwenwwsewnwww
+neswnewsenwneswneneeswswwneenene
+wwsenwwwesenewswswnwwwwswewwwnw
+nwwwswnweswseswweswneeswwwwwww
+seseswswswswswswswwseswneseswnwseesw
+swswwseseswswswswswswswswwenwnwwswwsw
+swnwnenewnwenwswsewnenwnweeswneneswsw
+swwnenwwwnwnwnwseseewnewwwenwew
+nwnenenwnwnenenwnwnewnenwnwnwnwsenwsene
+swswswswswswswswswswseswswne
+wswwnwsewsewnewnwnwwnewnwnenwnwnw
+swenwnenwnwnesenwnenenwnwnwnwnwnwnenwwne
+nwwnwnwnwwnwnwnwnesewseswewnweswnwnw
+swseswswsenesesewseswswseneswsenweswsesw
+wnwnwnwnwsenwnwenenwwnenwneswnwnwwsew
+nwnenenenewseneneneenwseenwweswnesw
+eseeseneweewesesewesesesewenee
+swnweseswwseseseswswsesweswswnwnwsweswse
+enwneseeswneseeseeeenesesewsewee
+seseswesesenwesenwseswneseseseseseswe
+esewswseseseseseswseseesesesesenesewse
+neseseseewseseseseseewesewseeesee
+nwnwnesenwnwswwnwnwnenwswwnenesweeee
+wnwnenenwnwnwnenwnwwsenwnwsenwnwswnenw
+neswswswswswswwnesweswswswnwseewswwsw
+senwwnewnwnwsenwwwwnenwnwswnenwnenwswnw
+seswneneweeweenweneenenenwseee
+nenwnwwswwnwswenenwseeenwnwswwnwnwsew
+nenwnwewswnwsenewwnwnwswwnwnwwnwse
+nwsenweswnwwnwnwneenewnwnwwnwnwnwsw
+eseneweseeseeeseseeeewesesesee
+nwneseeeweneswnwesweeneneeenenese
+wswswswwswwswswneswswnwseswwswswwsw
+senwnweeswenweenwenwseneeseswseee
+wnenwnwnenwnenwnenwnenwnwe
+seswwenwneswwsewswnwseenwnwesenew
+neeneeseeneenwneeeneneesenwenene
+nenweswnwswswseeswswneeswnewenwwwsw
+nenenewnenweswneneswsenwnewnee
+nwswsweswenwswswswswseswswwswseeswswse
+nweeswswnenwnwenenewnwswswnenene
+swnwnenesweenwnenenenwnenwnwnwnenewne
+sweswswswswnewswswswswnewswswwswswsw
+nwnwnwwewsenwnwnwnwwnwnwwnwnwnwwnw
+senenwnenenenesenwnwnwnenenenewswwnwsw
+sewnwsweswwwwwwewnwwsewwwnesw
+eeeseeneenenwswswenwee
+nwseseeeenwseseeswseseese
+wwneseneneneneneneseneneneneneenenene
+eeeweeseeeeeeesweeeseene
+eeeneneeneweneseeneneeenenenewe
+wnwsewwwwwwwwnewwnww
+nwnwswnwnenwnwneswnwsenwnwsenw
+newewseswsenwseswsesenwsesesenwseneswse
+weesewseeeeeseeseeeeswesenwe
+nwnwnwwwsenwnwnwwnewnwsewwnwnwwnwse
+senwseseeseeeeeseseseesesesenw
+enenenenenenenenenenwneneneneswneswnenwnw
+wswswwwnwnewswwsewwseeweneesww
+sewwnewnwwwwwwwwsewwwwnwww
+enweeneeeeeneesweeneneeneswsenw
+swswswswswswswswsweswswswswwswswswnene
+wewwnwnwswwnenwswnwneswnwnweenwnwsee
+nwnenenenwnenenwnesweneneneseneewswnew
+nwwswnwswewseneewswnwnwenenwwww
+wswwnenewesenwwswwsewnenewswwwww
+wwwwnwwwwwewwnesewwwwwsww
+senwwwseesesenwseseseneseseseesenwswsw
+sewseseseseswswsenwseseswnwsesesenesesw
+neswneneneneeneenenwneneneeneee
+eneenwnenewenwsweswnenwesee
+swnewnwnwnwneewsewnwenwnwwwewswwse
+eeeeeeeeeeeeeeesenwwse
+swswswwswswwwnesewwswnewswwwnewsw
+nwwwwswwswwwswnewswwee
+neseswnwseswswnwseswswseseswswswseenwse
+wseewwwwwsewwwwnewwwwnwne
+nenwnwswnwnweenwnwnwnwnwnwnwwnwnwnwnw
+wewwnwwwnwnwesewnwwnwnwwnwnwwnw
+nwnewwwwnwswwnwnwnwewwnwnwwsenwwnw
+eewneeeeeeeneeee
+wseseseswseenesenwwsesesesesesenesesese
+eeeeeweeeeeneenene
+newswneeneeneneenenesenesweswnenee
+seswewesenesenenesewsenwwswese
+nwswnwnwnwnwwnwneenwe
+nenwnwnwnenwnwsenwnwnwnwnwwnwnwnwnwnwse
+neneneeswswenenenenwnenwwseswswenw
+eeenwsenwnwseseesweeeseswewe
+nwwsenwnwnwsenwnwnwnwsenwwwnwnewnwnenw
+neseeeeenwneeeneeseenweneeee
+nwnwwnwnwwewnewnwwnwnwsenwsenwwsww
+nenwnwnwenwwseneswwnwnwnesenwenenwnwwnw
+swsweneeeenweeseseeeeeeneenwsw
+nenwnwnwseswsenwnwnwnwnwnwnenwwnwnwnwnwnw
+senwwseenwwsewnenwwnenwnesewnwnwsee
+nenenwneneeneneneswsenenenewnenene
+nwswneewenwwneseweneneseneseswsesww
+nwnewswesenwseswswneswswwswnwswwswsesw
+wnwnwnwwsenwwwwwwwnewnewnwnwwnwse
+wewswsewswnwwswswwwnwsewwnewsww
+nenwnesenwnewnwnenwnwnenenwnenwswnenwnwene
+swswwseswswswswswnwnewswswswwswswsww
+nwnwswswnenenwnwsenenwnwnwwnenenwnenenwnw
+seswswseswswseeswswswswseswseswnwesww
+senewwswwewnewswsenewseenewsww
+swnwseewnwnwswwnweseeseeewseneeee
+enwnesenenenwneswneneswwnesenwnenwnewnwne
+wwwwwwenwwwwwwsewwwwww
+eweswnwnwseswwweswwneewnesewnenew
+swseswswswseseswswneswswswswseswswswnwswe
+seswswwsenwswenesw
+nenwneenwnwswnenenwnenwnwnenwwnwnwnenwe
+eewewneneweneeswneeseew
+nwswneswwswsewswswwswewwswswwseswswne
+sewsesesesenweseseweeswseseenw
+nwswseswneseewwswswswneswenwswnwwsw
+swseseswseseeswseswwwswseseseneesesenwse
+wswsewwswwsewneeswwnwewwwwww
+nwswseeswswseswnwnwnweneswswswswswwwsesw
+swweseseseswneswswswseseswsesesenwswswsw
+nwnwnwnwnwnewsenwnwnwsenewwwnwnwnwnw
+enewseeewnwswnwseswnenwnwneenenesenene
+wneswswswnwneesenwneeenesw
+wswwwswnewswswwnewswswswsewwww
+swnwseswseseenewswnwneneseneswsweswwsw
+eeeeeeeweseneweswseenwseseswe
+seswseseseseseseswwswswesese
+eseeseseesenwseesesesese
+swneswnwesesweseseswswsewswswsesenwse
+newwnesewsewewwenwwsw
+nenesenenenenwneseneneneneenewne
+neswnesenwneneneewnenenenenenenenenene
+eneeseeweseseseeseee
+swswwwswnwnweswwse
+neseenwnesenwnesenwsesewsesewsweeseese
+enenenenenwnwnwnenesenwnwswnwnwnene
+wwwewswewnewnwwwwwwwwsww
+nwnwnwwsewnwnwnwwwsenewnenwwwnwnw
+sweeseneeeeeweswewenwseesenenw
+weswwnwnwwwsewwwwwewwwwnw
+eeseneeesesweee
+enweseneweeswneseseswswneesenesw
+nwnwnenwnwswnwneenwneewnwse
+nwnwsenwseenwseseeswewsweeseeenwe
+swneswseswenwneswswsenwswswseswswswneenwsw
+sewswnwwnwnewnwwswswewnewnewwnw
+nenenweswswswswswswsenenwswswseswewswsw
+sesenenwnwnenesenesewwnenenwnenenwsew
+sesesewseseseeseseseseesesenesesesewse
+neneneneneswnenenenenenwnenenenwneswne
+wwsweswswweneseseswswsenwewneew
+eeeneeneneeenweeeeeseeneswe
+nwswswswnewswswwweswswwswnewsewswsw
+nwnwwnwnewnwsenwnwnwwenwnwswwnwnwnwnw
+sesenweenwseneeeseeseswswsenesesesw
+wwswwwnwwwnwwwwwwwnwwnwnwsee
+wwseswsweseneswseswswswswswswsweswnenw
+wneeeesweneenenewenenese
+swswenwnwswnwenwnenenwnwswnenwnenwsenw
+wwswwewnwnwswewnwsewseseswnwnenew
+nwnwwnwnwwwnwnwew
+swnesweswnewwswnwsweswsenwswswswseene
+seseswswwsenwnenwnenenwnwnwnwnenwsesenenw
+swswwsweswwswwwswswweewswwwnw
+eneeneeeeeeeswseeeeeswnwswe
+nwwwwnesewwnwwnwnwnwnwse
+neswseswswswseseswswsenwewnwswswnwswswe
+seswswswswnweswswsweseswsewswswseswsw
+swsesenwseseseswsenesew
+swnwnwnwnwnwnwnenwnwenwnwwnwwnwsenwnwnw
+seneseswswswseseeswseseswnwswsesesesww
+wwwnwnwnwnwwnewnwnwwsenwnwnwnw
+wsesenwsweneneseswnewswnewseneesww
+eeneneneeneseneeeeeswnwneneeene
+eneewswnesewneeeeneneneeenenenee
+neeeswnwewneewneswswseswwseneewenw
+enwswswsenewsewwswwnwwwswsewww
+swswnweenwnwwnwnwnwwnwnwenwwnwswnenw
+sweeseeenwneeseeeeeseseseesee
+neneenwnenwnenwseenenenewnwswnwsww
+nwneneneenenwnenwnwsenwnenwnwnwnwwnwswnwne
+nwnwnwnwnwnwwnwnwwnwnwenwwnwnwwswse
+swsewsesenwnwseswseesw
+seneeneneneneneneneswneeneneeweenee
+senwseswnwswwnwneswwseswswwswswswsesw
+nenwnwnenenesenewnenwsenesesenenenwnene
+wwnwwwewwswseswwwswwneewwwsw
+sesesweseseswseswswseeseseseswnwsenwsese
+nenewneneneneneswnenenwnesenenenenenenene
+wnwnwwnwwnwwenwwnwwwwnww
+wnwnwenenwnwneswnwsenwwnwwwwnwww
+sweneeneewswnwnwsenenenewweswseew
+wswenwnwnwnwnwnwnwnwnwnwnenwwnwnwnwnw
+eeneeswnwswswseneesweeenweeenenenw
+eswsweeeeneeeeeeneenweeee
+wswwneenwsewsewswnwseneswewneewsw
+nwenenenwswwswsenwnwnwneswwnwnwwnwnw
+sesesesesesesesesesesesesenwsese
+eseesweseewseseseeneseseseeeesew
+seswnenenenenenenwsenewwnesenenenenene
+neenwsweeeenwsewnewseeweeeene
+sewenewwwwsewneneseneswseseeesese
+seswswseswswswseswswseweeswweswnwswse
+swwseseeeeeeeenesesewnwneeesese
+eseneeeswswwnwwnesewneswwenwsenw
+seenwnweeeeseeesweseeeeeeswse
+seneseseseseseseswnesenesesewsew
+nenenenewswneneneswsenenenewseeneneswne
+sesenesesenewwesenwnwseseswswswseesenw
+sewseseeswsenwwnweseneeseseeeswenwe
+sewneseweseeeeseseseseseeseeesese
+nwnenwnwneneswnwnenenesenenenwwnwnenenwne
+senenwnwneewnwseeenwswswwnwnw
+wwswwnwwsweseswwwnwsweswwswswsw
+sewswswswwneseswseneswnwsweseswwseswsee
+esesweseseeswsenenwseseeeseseewsesese
+wwwwwsewwwwwwswwwnw
+enenwswneneswnewneneseneenenenwswenene
+sweseenwneneenwwswneneneneneneeene
+nwsenweesenwseenewseseseswenwewse
+nwswnwnwnwnwnwnwnwnwnwnwnwnwsenwnwe
+nwnwnwnwswesenwnwnwnenenwnenenwnenenenw
+swswswewswswswswnwswswswswswwweswswse
+wneseswseseseswseneeseesenewnwnwnesw
+eswnewnenwswenewneneneenenwneneseswne
+nwswweseseeesenwseseenesesewneseesw
+neswswesweeeesweneneeswenenwnwsewe
+nwnenwnweeeseneseseswesenwenesweneenw
+esweneeneeeeeneeeeeeweee
+neeneswnewnesewewesenwnenesenenwnene
+wwnwwwwwwnwnwseesenwnenwwnwwnw
+eswwwnwseneewswswseneswwnwwnwenwne
+swswswswwnenewswswswswswwswswneswswsw
+swnwswswswseswswswseswswsw
+seseesesesesenwseseeseseseesesewe
+seswneseswsesweswseseseseswsewswswswsw
+swswswnwsenwswsesenwnwnwswseswsesweswse
+swseswswseweseswswsesw
+nenesenenenenenenenewweneneseenenenene
+swseswnwwswsewnewsenwneswswswweww
+neeeeweeeeeee
+seseseswswsenwseseseseseseswse
+enenenwnenenenenenewnwsenwnwswswenesw
+nwneseseesweseseeeeswenwseswnwsesesw
+wwnwwwseneswwswwswewwwwwwwsw
+nwnwswseenwnwenwswswnwnenwneenwwneswese
+sewnwwnwnwsesewnewwwwwwewwsww
+nwswweswswwswsweeswswseswnwwsww
+wewwsewwwwwwwsenwwwwwnwnwwne
+swswswswwnwswswswswswnwsweseswswswsww
+wnwwnwswnwwnwewwneswswwwenwww
+newnenenwwneneswnenwnenweneesenwnwnene
+wneswsweswneeneswneneweneeenenee
+senwesesenwseseswswseseseseseseseswsese
+wwwswswenewsenweswwwswwwnewswnw
+nwswswswwswwnwneenwenwewewenwswne
+seseseswseenwseswenwneseeweeseeee
+ewseseseseseeeeeeseeseeseseenw
+neswneneenwnenenenenenenenenewnw
+swswwwwwwnewswwsenewnenewwwwsw
+swweswswswnewwnwwswwswwenw
+senenwwnwnwnwnwesenwnenwswnwnwnwswnwnwwnw
+nwnewswwwwnenwnewnwsenenwwwnwnwswsw
+nesweeesenwsweeeeesenweenwnee
+swwwwewnwwswwseswwweneewwnw
+nenwnwenwnwnenwwwsenwsewnwnwwnesw
+wseseseseneswnenenwsesesesenwswsese
+eenenewneneenweneeswnee
+wwwseewwnwnwnwwwwnwnwwsenwswnwnw
+newnenweswswnwneseswnenwseneseswnwnee
+seneseswseseswswesenwswswswswsese
+seesewenwnenwnenewsw
+nenenenwnwneswnwnwwsenenwnwnenwnw
+neeeeeneneneswwnese
+weneneeeswseneeweeneeneeeseeee
+seswswnesesesweseswwseswswnwswswseseswsw
+eeeseesenenweweneweeenwewwsw
+enwnwseseseeewnwsweswnenenwneswew
+wnweneenwsenesweneeeeneeneenesee
+neswsenwnesenwswwswsenwwsewwwsewne
+sewwwwnwsewwnewwwwewwwwww
+swswseswswswseseswenwsesw
+eeseeneeeenweweeeeeseseeee
+nwnenwnwwenwwsewwwnwnwnwwwsewwnw
+eneswwneneneneneneneneneseeneneenwne
+nenenwewneneneeneswswnenenenesenenene
+wnwsweswswswnwnwswenwseseseeswswswnwse
+sewnwwnwwnwnwsewnwwnwsewwnwnwwnew
+sweswwnwswswwewswnewnwnwsewswesesw
+seewnewwwnwnewswwwnwwwwsenwww
+swswswneswswswswwswswswseenwswswsweswse
+wnesenenenesweseewwneenwnwsweene
+senwseswswseswseseseswseseseseswswswnwse
+wsenweseseseswneneseswseseseneeswese
+esenwsewweseesewseeeswnwesesese
+wwswseneswwswwwswswww
+seeeewseeseeeneseenesweesesenw
+nwnwwwnwnwnwnwnwwnwweswwnwnwwwee
+neseeswsenwwseseeeeweneeweseee
+nwnenenenenenenenenwswnenenw
+nwnwwnweswnwnwnweseenwswnwnwnweswnwwne
+newneeneneneswwnwnesenenenewsenenesene
+wwswsenewsewwnenwwwewweswewnw
+swwneeswwsewnwwwwswwwnewwwwsww
+nenenenewneseneeenesewwneswenenwse
+nwnwneswnwenwnenwneenenwnewnesenwnwnww
+wnwsweswnwsweneeenenenwneeseenwesw
+swnewsweswswwswwneswswswsewswswwww
+nwnwnwwnwenwswnwwswwwnweenwswnwnw
+wwsenwwwnwesenwnwnenwnwwwsweswnww
+swwnwenwnwnwnenwnwswnwnwenwnwswnwnwwnenw
+seneseneseswswwseswswenwswswswseswneswnwe
+seseesenwseswseseswsesesesesenw
+swneswnwwnwswwwseswsesww
+wnewwwnewswswsewswwwwwwwnesw
+nwnwnenwsenwnwnwwswenwnwnwnw
+weeswnwswwseeswseeswswswnwsesewsw
+wnwwnwwwsewswnewnwwwnwwwwwe
+seseneseseseseseseseseseseseneseswsesew
+eeneseeewseeseeesweeeeeenee
+nwneswnwnwnwnwnwnwnwnwnenwnenw
+sesenwseenwswseeeeenwswweesesewnwse
+swseseseswswswnesesweswsenw
+senwnenwnwwnwnwsenenenwnenwnwsenewnwnw
+nenwwneewwswnesenwsesenwsenwnenwsenwse
+ewneneswnwswsewwsenwsewnenewnwnwwsw
+swswswseswswwnwseswneeswseswsw
+eweneeeeeenwseeneswnwseeeneswne
+seseseseseseseeseenenewsesenwsesesew
+wswswwwswswwwwswswwwseswnesw
+swwwswwwneswswwswwneswwwswwww
+eswseseswnesewnwswwseeswswswswswsesesesw
+swneneeneeneeseeweenwnweenenese
+wwnewswswswwswwwsewswswseswnenew
+eeeswneneneneneeeneneene
+neswnwenenwnwnwnenwnwse
+seweseeneeseeese
+nwswnwweneenwsenwseswswwnwswneneneene
+nwnesenwnwnenenwnenwnenwwwnwswnwenwnw
+nenenesenenesenenewnenenenenwnenenenwne
+esesesewseeseeesesewsesee
+neneseswnesenewwnenewnenwenenenene
+swswwwewswwwswwwwswswwwswsene
+nwnwnwwewnwnwnwnwnwnwnwwnwseewwsw
+neswneenweseneenweneweseesenwweee
+nwwneneeenewenenenewneneneneseseneese
+sweneneeeweneneeeenene
+nweneeswnwnwenwswnewseswswnew
+neneeeeneeneneswswnwenenwswenwsee
+eeswneeeeeeneenweswseeeeee
+senewswswseseseseswseswseswswsesese
+seewnwseseeeeeeeeeeeeseese
+wwnwwnwwwswswwnwseenewwnwweww
+swwwwswwswswwswnwswwswswew
+nwseeseeenwsweseenesesesewnwesesee
+swswswswswnwsweseneswswnwwswswsw
+eenwnweeeeseeeneeeeseeeew
+swwswswswnwswswwswswswseswswswswswesw
+swnwswswwneeweneseswwsenwswswnewe
+nweenwseeseseewswneewseseeesee
+swneswneneeneenwneene
+wwwnwneswwwwwnwwwwnewwswww
+nesweeeeewseneenw
+nwnwnwsewnwwnwnwnwenwnenwnwwwwwww
+newseneeneneneenenenenenenwnewnesw
+nwnwenweswnwnwnwnwesewswnewnwwseew
+senwswswswswseewseneswseswseseswswswnw
+nwsewwwwnewnwwwswenwwnwnwnwnww
+seswwwwwswnewwwwswenwwswswsww
+esweeenwenwnweeseeesweeeeee
+seeseseseeswesesesenwsesese
+swswwweneeweswwnewseswswwwnwewse
+nweenenwseenenewnesweneswenwnesewsene
+swneswswswswswswswswwswswsweswswswswsw
+nwnwnwsewnesenwswnenwnwsesenwnwnwsenwnw
+neseswsenwwnenwnwseswenenenenwwnewe
+wseseeseseswseseseesesesesesesesenenwnw
+newsenenwnwswnwwnwnwnwnwnenwwnwnwswwnw
+eneswswneewweneneeeswneseneneeseesw
+wwneswwwwwwsweswswwswwwseswww
+sewnewnenwwwwwwwwwwswsewwww
+nwnwnwnwswnenwsenwnenwneenesenewnenwne
+sesenwsweeewnenenwnwswnwnwnwnwnwwsw
+seseseswseseswneseneseseswenwsesenwseswse
+wwnewnwnwsenwwwwnwnwnwnwwsenwwnwenw
+swnwnwnenwnenenenwenenenwneneswnwnwnesene
+nwwewwsewwneswwsesenewnewwwwnww
+neewnenenweneeneeneneneeswnenenenene
+swseswswswseeswwswsesesewseswnwseswnenesw
+nenwneneneswnenwneenesenenenenesenwnewne
+nenwsesesesesesesesesesesesewsesesesesese
+sewswwnenwwnwesewwnwwwwwwewe
+nenwnwwsenweswwnwnw
+seeeeneenweeswneewnwneeneseene
+nenenenenwnenenenenenwswnwnenwnenwe
+seseeseswsenwseseesesewsesesesenwsenenw
+seneeeseswnewnesenewwsewnwnenenwe
+seenwnwnwswswnwsenenwnwwnwnweswnenewe
+neenenenenenenewenenesewneneneee
+nwswswswswwswwswneswswswsweswswswswwsw
+neeneneneswneeeeeneneeeneneeswnw
+swwswswseswswswswswwswswwwswneswswesw
+swwseswwseswwnenwwswwswswnesw
+wswswwswswenwnweswsenwnwwwswewsew
+wnwnwnwnwnwnwnwnwnwnwnwnwnwnwnwenw
+neeewesewswesewneswseeseseseenene
+nwnwswenwneenwnwnwnwnwnwwnenwnwnenw
+nwseesesenwesenwswswswnwswweeneswnesw
+ewwnwsweeeewwweeeeswwnee
+swwswneeeeneeeeeeeenwewesee
+nwsesenwnwsewnenwnwswsenenwnewnwseenwnw
+neneeneneeneswswenenenenwswnenwnenenene
+neneswswnwnwnwnwweneneenenenwnwnenwnw
+nwnwenwnwnwnwwnwnwnwswnwnwnesenw
+wenweswwwwwwwwwwwnwnwwwwwse
+sweneswsewwswsesweswswswswswnwsweswse
+swswswswswnwseswswseswenwwswnesweswsw
+senwseseeeeweenesenesweseeseeseswse
+'
+]
+
 { #category : #running }
 AdventOfCode2020Tests >> setUp [
 	super setUp.
@@ -10336,16 +13475,15 @@ AdventOfCode2020Tests >> testDay16a [
 
 { #category : #tests }
 AdventOfCode2020Tests >> testDay17a [
-	| cc |
-	cc := ConwayCube new initial: '.#.
+	aoc conwayCubeInitial: '.#.
 ..#
 ###'.
-	self assert: cc activeCount equals: 5.
-	self assert: cc cycle activeCount equals: 11.
-	self assert: cc cycle activeCount equals: 21.
-	self assert: cc cycle activeCount equals: 38.
-	cc cycle cycle.
-	self assert: cc cycle activeCount equals: 112.
+	self assert: aoc activeCount equals: 5.
+	self assert: aoc cycle activeCount equals: 11.
+	self assert: aoc cycle activeCount equals: 21.
+	self assert: aoc cycle activeCount equals: 38.
+	aoc cycle cycle.
+	self assert: aoc cycle activeCount equals: 112.
 	self assert: ('.#.
 ..#
 ###' day17a) equals: 112.
@@ -10358,6 +13496,263 @@ AdventOfCode2020Tests >> testDay17a [
 ###.###.
 .#.#.#..
 ' day17a) equals: nil.
+
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay18a [
+	self assert: '1 + 2 * 3 + 4 * 5 + 6' day18a equals: 71.
+	self assert: '1 + (2 * 3) + (4 * (5 + 6))' day18a equals: 51.
+	self assert: '2 * 3 + (4 * 5)
+5 + (8 * 3 + 9 + 3 * 4 * 3)' day18a equals: 26+437.
+	self assert: '((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2' day18a equals: 13632.
+	self assert: self dataForDay18 day18a equals: nil.
+
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay19a [
+	| mm |
+	mm := MessageParser rules: '0: 1 2
+1: "a"
+2: 1 3 | 3 1
+3: "b"'.
+	self assert: (mm matches: 'aab').
+	self assert: (mm matches: 'aba').
+	self assert: '0: 4 1 5
+1: 2 3 | 3 2
+2: 4 4 | 5 5
+3: 4 5 | 5 4
+4: "a"
+5: "b"
+
+ababbb
+bababa
+abbbab
+aaabbb
+aaaabbb' day19a equals: 2.
+	self assert: self dataForDay19 day19a equals: nil.
+
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay20a [
+	self assert: 'Tile 2311:
+..##.#..#.
+##..#.....
+#...##..#.
+####.#...#
+##.##.###.
+##...#.###
+.#.#.#..##
+..#....#..
+###...#.#.
+..###..###
+
+Tile 1951:
+#.##...##.
+#.####...#
+.....#..##
+#...######
+.##.#....#
+.###.#####
+###.##.##.
+.###....#.
+..#.#..#.#
+#...##.#..
+
+Tile 1171:
+####...##.
+#..##.#..#
+##.#..#.#.
+.###.####.
+..###.####
+.##....##.
+.#...####.
+#.##.####.
+####..#...
+.....##...
+
+Tile 1427:
+###.##.#..
+.#..#.##..
+.#.##.#..#
+#.#.#.##.#
+....#...##
+...##..##.
+...#.#####
+.#.####.#.
+..#..###.#
+..##.#..#.
+
+Tile 1489:
+##.#.#....
+..##...#..
+.##..##...
+..#...#...
+#####...#.
+#..#.#.#.#
+...#.#.#..
+##.#...##.
+..##.##.##
+###.##.#..
+
+Tile 2473:
+#....####.
+#..#.##...
+#.##..#...
+######.#.#
+.#...#.#.#
+.#########
+.###.#..#.
+########.#
+##...##.#.
+..###.#.#.
+
+Tile 2971:
+..#.#....#
+#...###...
+#.#.###...
+##.##..#..
+.#####..##
+.#..####.#
+#..#.#..#.
+..####.###
+..#.#.###.
+...#.#.#.#
+
+Tile 2729:
+...#.#.#.#
+####.#....
+..#.#.....
+....#..#.#
+.##..##.#.
+.#.####...
+####.#.#..
+##.####...
+##..#.##..
+#.##...##.
+
+Tile 3079:
+#.#.#####.
+.#..######
+..#.......
+######....
+####.#..#.
+.#...#.##.
+#.#####.##
+..#.###...
+..#.......
+..#.###...' day20a equals: 20899048083289.
+	self assert: self dataForDay20 day20a equals: nil.
+
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay21a [
+	self assert: 'mxmxvkd kfcds sqjhc nhms (contains dairy, fish)
+trh fvjkl sbzzf mxmxvkd (contains dairy)
+sqjhc fvjkl (contains soy)
+sqjhc mxmxvkd sbzzf (contains fish)' day21a equals: 5.
+	self assert: self dataForDay21 day21a equals: nil.
+
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay22a [
+	aoc combatDeal: 'Player 1:
+ 
+Player 2:
+3
+2
+10
+6
+8
+5
+9
+4
+7
+1'.
+	self assert: aoc combatScore equals: 306.
+	aoc combatDeal: 'Player 1:
+9
+2
+6
+3
+1
+
+Player 2:
+5
+8
+4
+7
+10'.
+	aoc combatPlay.
+	self assert: aoc combatScore equals: 306.
+	aoc combatDeal: self dataForDay22.
+	aoc combatPlay.
+	self assert: aoc combatScore equals: nil.
+
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay23a [
+	aoc initializeCrabCups: #(3 8 9 1 2 5 4 6 7).
+	aoc moveCups: 10.
+	self assert: aoc crabCupsResult equals: #(9 2 6 5 8 3 7 4).
+	aoc moveCups: 90.
+	self assert: aoc crabCupsResult equals: #(6 7 3 8 4 5 2 9).
+	aoc initializeCrabCups: #(2 1 5 6 9 4 7 8 3).
+	aoc moveCups: 100.
+	self assert: aoc crabCupsResult equals: nil.
+
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay24a [
+	aoc initializeTiles.
+	aoc flipTiles: 'esew'.
+	self assert: aoc numberOfFlippedTiles equals: 1.
+	aoc flipTiles: 'nwwswee'.
+	self assert: aoc numberOfFlippedTiles equals: 2.
+	aoc initializeTiles.
+	aoc flipTiles: 'sesenwnenenewseeswwswswwnenewsewsw
+neeenesenwnwwswnenewnwwsewnenwseswesw
+seswneswswsenwwnwse
+nwnwneseeswswnenewneswwnewseswneseene
+swweswneswnenwsewnwneneseenw
+eesenwseswswnenwswnwnwsewwnwsene
+sewnenenenesenwsewnenwwwse
+wenwwweseeeweswwwnwwe
+wsweesenenewnwwnwsenewsenwwsesesenwne
+neeswseenwwswnwswswnw
+nenwswwsewswnenenewsenwsenwnesesenew
+enewnwewneswsewnwswenweswnenwsenwsw
+sweneswneswneneenwnewenewwneswswnese
+swwesenesewenwneswnwwneseswwne
+enesenwswwswneneswsenwnewswseenwsese
+wnwnesenesenenwwnenwsewesewsesesew
+nenewswnwewswnenesenwnesewesw
+eneswnwswnwsenenwnwnwwseeswneewsenese
+neswnwewnwnwseenwseesewsenwsweewe
+wseweeenwnesenwwwswnew'.
+	self assert: aoc numberOfFlippedTiles equals: 10.
+	aoc initializeTiles.
+	aoc flipTiles: self dataForDay24.
+	self assert: aoc numberOfFlippedTiles equals: 10.
+
+]
+
+{ #category : #tests }
+AdventOfCode2020Tests >> testDay25a [
+	self assert: 5764801 loopSize equals: 8.
+	self assert: 17807724 loopSize equals: 11.
+	self assert: (17807724 loopTimes: 8) equals: 14897079.
+	self assert: (5764801 loopTimes: 11) equals: 14897079.
+	self assert: '5764801
+17807724' day25a equals: 14897079.
+	self assert: '13316116
+13651422' day25a equals: nil.
 
 ]
 

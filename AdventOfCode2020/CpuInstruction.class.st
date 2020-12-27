@@ -13,7 +13,7 @@ Class {
 		'cpu',
 		'isFirstExecution'
 	],
-	#category : #AdventOfCode2020
+	#category : #'AdventOfCode2020-Core'
 }
 
 { #category : #initialization }

@@ -1,5 +1,5 @@
 Class {
 	#name : #TicketForm,
 	#superclass : #Object,
-	#category : #AdventOfCode2020
+	#category : #'AdventOfCode2020-Core'
 }

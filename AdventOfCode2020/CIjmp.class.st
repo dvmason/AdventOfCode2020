@@ -6,7 +6,7 @@ I am an unconditional jump to the relative instruction offset by the argument.
 Class {
 	#name : #CIjmp,
 	#superclass : #CpuInstruction,
-	#category : #AdventOfCode2020
+	#category : #'AdventOfCode2020-Core'
 }
 
 { #category : #execution }

@@ -6,7 +6,7 @@ I do nothing, except the PC is advanced to the next instruction.
 Class {
 	#name : #CInop,
 	#superclass : #CpuInstruction,
-	#category : #AdventOfCode2020
+	#category : #'AdventOfCode2020-Core'
 }
 
 { #category : #control }

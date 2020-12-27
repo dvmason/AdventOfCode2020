@@ -6,7 +6,7 @@ I add my argument to the accumulator in the Cpu object.
 Class {
 	#name : #CIacc,
 	#superclass : #CpuInstruction,
-	#category : #AdventOfCode2020
+	#category : #'AdventOfCode2020-Core'
 }
 
 { #category : #execution }
