@@ -13419,7 +13419,7 @@ AdventOfCode2020Tests >> testDay14a [
 mem[8] = 11
 mem[7] = 101
 mem[8] = 0') equals: 165.
-	self assert: (aoc day14a: self dataForDay14) equals: #unknown.
+	self assert: (aoc day14a: self dataForDay14) equals: 5875750429995.
 
 ]
 

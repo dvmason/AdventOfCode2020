@@ -221,6 +221,27 @@ AdventOfCode2020 >> day13b: aString [
 	]
 ]
 
+{ #category : #'as yet unclassified' }
+AdventOfCode2020 >> day14a: aString [
+	| or and memory mask index value |
+	or := nil.
+	and := nil.
+	memory := Dictionary new.
+	aString lines do: [ : line |
+		(line beginsWith: 'mask = ') ifTrue: [
+			mask := line allButFirst: 7.
+			or  := ('2r',(mask copyReplace: { $X -> $0 } asDictionary))asNumber.
+			and := ('2r',(mask copyReplace: { $X -> $1 } asDictionary))asNumber
+		] ifFalse: [
+			index := (line substrings first allButFirst: 4) allButLast asNumber.
+			value := (line substrings last asNumber bitOr: or) bitAnd: and.
+			memory at: index put: value
+		]
+	].
+	^ memory values sum
+
+]
+
 { #category : #initialization }
 AdventOfCode2020 >> initialize [
 	super initialize.
